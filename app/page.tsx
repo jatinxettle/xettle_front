@@ -43,10 +43,17 @@ const page = () => {
                 <div className="flex items-center">
                     <div className={roboto.className}>
                         <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
-                            <span className="whitespace-nowrap text-[#015EFE]">
-                                Xettle:{" "}
+                             <span className="whitespace-nowrap text-[#015EFE]">
+                                Software
                             </span>
-                            Transforming Software and Finance
+                            ,{" "}
+                            <span className="whitespace-nowrap text-[#015EFE]">
+                                Fin-Tech
+                            </span>
+                            , and{" "}
+                            <span className="whitespace-nowrap beyond">
+                                Beyond.
+                            </span>
                         </h1>
                         <p className="text-justify text-[rgba(0,_0,_0,_0.70)] pt-3 lg:text-[1.1rem] font-medium">
                             At Xettle, we are revolutionizing how businesses
