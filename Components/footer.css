@@ -1,0 +1,122 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.input-div {
+  font-size: 16px;
+  font-family: inherit;
+  -webkit-box-shadow: 0 0 0 1px #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
+  border: none;
+  border-radius: 25px;
+  position: relative;
+}
+
+.input__email {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-family: inherit;
+  -webkit-box-shadow: 0 0 0 1px #ffffff;
+  box-shadow: 0 0 0 1px #ffffff;
+  border: 1px;
+  border-right-style: hidden;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.input__email::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.input__email::-moz-placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.input__email:-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.input__email::-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.input__email::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.input__email:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 10px 1px #ffffff;
+  box-shadow: 0 0 10px 1px #ffffff;
+  border: none;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  height: 80%;
+  padding: 1px;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  border-radius: 100px;
+  background: #e2e2e2;
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  display: inline-block;
+  position: absolute;
+  right: 3%;
+}
+
+.button:hover {
+  background: #ffffff;
+}
+
+.button > svg {
+  width: 34px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.button:hover svg {
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  transform: translateX(5px);
+}
+
+.button:active {
+  -webkit-transform: scale(0.95), translate(0%, -50%);
+  -ms-transform: scale(0.95), translate(0%, -50%);
+  transform: scale(0.95), translate(0%, -50%);
+}
+
+

@@ -1,0 +1,36 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+  border-color: rgb(56, 61, 63);
+}
+
+td {
+  padding: 4px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: top;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+  display: table;
+  text-indent: initial;
+  border-spacing: 2px;
+}

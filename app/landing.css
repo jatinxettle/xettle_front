@@ -1,0 +1,83 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.beyond {
+    background: -o-linear-gradient(310deg, #262726 22.13%, #300a9c 90.83%);
+    background: linear-gradient(140deg, #262726 22.13%, #300a9c 90.83%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.get-started {
+    border-radius: 0.5rem;
+    background: -o-linear-gradient(
+        19deg,
+        #3445e5 21.66%,
+        rgba(126, 254, 52, 0.92) 178.45%
+    );
+    background: linear-gradient(
+        71deg,
+        #3445e5 21.66%,
+        rgba(126, 254, 52, 0.92) 178.45%
+    );
+}
+
+.usp-card {
+    border-radius: 1rem;
+    background: #f8fbff;
+    -webkit-box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+.butt--exit {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#f37458),
+        to(#de4c12)
+    );
+    background: -o-linear-gradient(#f37458 0%, #de4c12 100%);
+    background: linear-gradient(#f37458 0%, #de4c12 100%);
+}
+
+.item1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    grid-row: 1 / 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+}
+
+.item2 {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 3;
+    grid-row: 6 / 9;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+}
+
+.item3 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1 / 4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+}
+
+.item4 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 5;
+    grid-row: 4 / 9;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+}

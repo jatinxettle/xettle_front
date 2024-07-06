@@ -1,0 +1,155 @@
+.containerhome {
+    height: 16rem;
+    background-color: #f2f1f1;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.terminal_toolbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background: #f2f1f1;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.butt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 8px;
+    height: 12px;
+    width: 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 100%;
+}
+
+.btn-color {
+    background: #ee411a;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.user {
+    color: #000;
+    margin-left: 6px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.terminal_body {
+    background: #ffffff;
+    height: calc(100% - 30px);
+    padding-top: 2px;
+    margin-top: -1px;
+    font-size: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 15px;
+}
+
+.terminal_promt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.terminal_promt span {
+    margin-left: 4px;
+}
+
+.terminal_user {
+    color: #000;
+}
+
+.terminal_location {
+    color: #000;
+}
+
+.terminal_bling {
+    color: #000;
+}
+
+.terminal_cursor {
+    display: block;
+    height: 14px;
+    width: 5px;
+    margin-left: 10px;
+    -webkit-animation: curbl 1200ms linear infinite;
+    animation: curbl 1200ms linear infinite;
+}
+
+@-webkit-keyframes curbl {
+    0% {
+        background: #000;
+    }
+
+    49% {
+        background: #000;
+    }
+
+    60% {
+        background: transparent;
+    }
+
+    99% {
+        background: transparent;
+    }
+
+    100% {
+        background: #000;
+    }
+}
+
+@keyframes curbl {
+    0% {
+        background: #000;
+    }
+
+    49% {
+        background: #000;
+    }
+
+    60% {
+        background: transparent;
+    }
+
+    99% {
+        background: transparent;
+    }
+
+    100% {
+        background: #000;
+    }
+}

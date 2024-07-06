@@ -1,0 +1,40 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.nav-bg {
+    background: -o-radial-gradient(
+        0.9% 2.98%,
+        231% 135.8%,
+        rgba(132, 132, 132, 0.2) 50%,
+        rgba(43, 43, 43, 0) 100%
+    );
+    background: radial-gradient(
+        231% 135.8% at 0.9% 2.98%,
+        rgba(132, 132, 132, 0.2) 50%,
+        rgba(43, 43, 43, 0) 100%
+    );
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+@media (max-width: 1024px) {
+    .lgnav {
+        top: 0vh;
+        background: #000;
+        display: block;
+        padding-top: 40%;
+        color: #ffffff;
+        padding-left: 10%;
+        padding-right: 0;
+    }
+}
+
+.nav-links li:hover .dropdown {
+    display: block;
+    transition: all 0.5s;
+    opacity: 1;
+}

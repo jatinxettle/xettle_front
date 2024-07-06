@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+  <url>
+    <loc>https://xettle.net/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/aeps</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/utility-payments</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/domestic-money-transfer</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/micro-atm</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/fintech-software</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/payout-solutions</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/services/kyc-and-validation</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/contact-us</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/about-us</loc>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/privacy</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/grievances</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/terms</loc>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://xettle.net/xettle_profile.pdf</loc>
+    <priority>0.30</priority>
+  </url>
+
+</urlset>
