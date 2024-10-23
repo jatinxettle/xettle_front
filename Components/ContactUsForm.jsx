@@ -1,43 +1,57 @@
-"use client";
-import React from "react";
-import Link from "next/link";
-
-import "./contact.css";
-import { useForm } from "react-hook-form";
-import toast, { Toaster } from "react-hot-toast";
+'use client'
+import React from 'react'
+import Link from 'next/link'
+import emailjs from '@emailjs/browser'
+import './contact.css'
+import { useForm } from 'react-hook-form'
+import { toast } from 'sonner'
 
 export default function ContactUsForm() {
     const {
         register,
         handleSubmit,
-        formState: { isSubmitting },
+        formState: { isSubmitting, errors },
         reset,
-    } = useForm();
+    } = useForm()
 
-    async function onSubmit(formData) {
-        await fetch("/api/send", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                name: formData.name,
-                email: formData.email,
-                tel: formData.tel,
-                message: formData.message,
-            }),
-        }).then(() => {
-            toast.success("Thank you, your message has been sent successfully");
-        });
+    function onSubmit(formData) {
+        if (
+            !formData.name ||
+            !formData.email ||
+            !formData.tel ||
+            !formData.message
+        ) {
+            toast.error('Please fill in all the required fields')
+            return
+        }
+        const loadingToast = toast.loading('Submitting your form...', {
+            duration: Infinity,
+        })
 
-        reset();
+        emailjs
+            .send(
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+                formData,
+                process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+            )
+            .then(() => {
+                toast.dismiss(loadingToast)
+                toast.success('Form submitted successfully')
+                reset()
+            })
+            .catch((err) => {
+                toast.dismiss(loadingToast)
+                toast.error('Error submitting your form')
+                console.error('Error sending email', err)
+                reset()
+            })
     }
 
     return (
         <main className="main bg-[#f9fbff]">
             <div className="contact_background">
                 <div className="container">
-                    <Toaster />
                     <div className="screen">
                         <div className="screen-header">
                             <div className="screen-header-left">
@@ -61,17 +75,18 @@ export default function ContactUsForm() {
                                     CONTACT INFO <br />
                                     Phone:
                                     <Link href="tel:+4733378901">
-                                        {" "}
+                                        {' '}
                                         +91 9654607040
-                                    </Link>{" "}
+                                    </Link>{' '}
                                     <br /> Email :
                                     <Link href="mailto:letstalk@xettle.net">
-                                        {" "}
+                                        {' '}
                                         letstalk@xettle.net
                                     </Link>
                                     <p>
                                         <br />
-                                        44 IIND FLOOR REGAL BUILDING, CONNAUGHT PLACE, NEWDELHI
+                                        44 IIND FLOOR REGAL BUILDING, CONNAUGHT
+                                        PLACE, NEWDELHI
                                     </p>
                                 </div>
                             </div>
@@ -86,7 +101,9 @@ export default function ContactUsForm() {
                                             type="text"
                                             placeholder="Name"
                                             required
-                                            {...register("name")}
+                                            {...register('name', {
+                                                required: true,
+                                            })}
                                         />
                                     </div>
                                     <div className="app-form-group">
@@ -95,7 +112,9 @@ export default function ContactUsForm() {
                                             type="email"
                                             placeholder="Email"
                                             required
-                                            {...register("email")}
+                                            {...register('email', {
+                                                required: true,
+                                            })}
                                         />
                                     </div>
                                     <div className="app-form-group">
@@ -103,7 +122,9 @@ export default function ContactUsForm() {
                                             className="app-form-control input_"
                                             type="tel"
                                             placeholder="Contact No."
-                                            {...register("tel")}
+                                            {...register('tel', {
+                                                required: true,
+                                            })}
                                         />
                                     </div>
                                     <div className="app-form-group">
@@ -112,7 +133,7 @@ export default function ContactUsForm() {
                                             placeholder="Message"
                                             autoComplete="off"
                                             required
-                                            {...register("message")}
+                                            {...register('message')}
                                         />
                                     </div>
                                     <div className="app-form-group buttons">
@@ -121,7 +142,9 @@ export default function ContactUsForm() {
                                             type="submit"
                                             className="app-form-button button_"
                                         >
-                                            SEND
+                                            {isSubmitting
+                                                ? 'Sending...'
+                                                : 'Send'}
                                         </button>
                                     </div>
                                 </form>
@@ -131,5 +154,5 @@ export default function ContactUsForm() {
                 </div>
             </div>
         </main>
-    );
+    )
 }

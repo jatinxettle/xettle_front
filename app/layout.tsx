@@ -1,23 +1,24 @@
-import "./globals.css";
-import { Roboto } from "next/font/google";
-import Header from "@/Components/Header";
-import { Footer } from "@/Components/Footer";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import './globals.css'
+import { Roboto } from 'next/font/google'
+import { Toaster } from 'sonner'
+import Header from '@/Components/Header'
+import { Footer } from '@/Components/Footer'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const roboto = Roboto({
-    subsets: ["latin"],
-    weight: ["500", "700"],
-});
+    subsets: ['latin'],
+    weight: ['500', '700'],
+})
 
 export const metadata = {
-    title: "Fin-tech Software Development | Xettle.net",
-    verification: { google: "vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0" },
-};
+    title: 'Fin-tech Software Development | Xettle.net',
+    verification: { google: 'vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0' },
+}
 
 export default function RootLayout({
     children,
 }: {
-    children: React.ReactNode;
+    children: React.ReactNode
 }) {
     return (
         <html lang="en">
@@ -31,6 +32,7 @@ export default function RootLayout({
             </head>
             <body className=" relative z-[-9999] overflow-x-hidden">
                 <div className={`${roboto.className} relative z-[-9999]`}>
+                    <Toaster position="top-right" />
                     <Header />
                     {children}
                     <Footer />
@@ -38,5 +40,5 @@ export default function RootLayout({
             </body>
             <GoogleAnalytics gaId="G-FC0WY4V6WZ" />
         </html>
-    );
+    )
 }

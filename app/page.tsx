@@ -1,27 +1,27 @@
-import React, { lazy } from "react";
-import Link from "next/link";
-import { Roboto } from "next/font/google";
+import React, { lazy } from 'react'
+import Link from 'next/link'
+import { Roboto } from 'next/font/google'
 const roboto = Roboto({
-    subsets: ["latin"],
-    weight: ["500", "700"],
-});
+    subsets: ['latin'],
+    weight: ['500', '700'],
+})
 
-import Image from "next/image";
+import Image from 'next/image'
 
-import "./landing.css";
+import './landing.css'
 
-import gateway from "./gateway.png";
-import stop from "./stop.png";
-import tailored from "./tailored.png";
-import Contour from "@/Components/contourimg";
-import Herolottie from "@/Components/herolottie";
-import Herobg from "@/Components/herobg";
-import Terminal from "@/Components/Terminal";
-import DiscoverBento from "@/Components/DiscoverBento";
+import gateway from './gateway.png'
+import stop from './stop.png'
+import tailored from './tailored.png'
+import Contour from '@/Components/contourimg'
+import Herolottie from '@/Components/herolottie'
+import Herobg from '@/Components/herobg'
+import Terminal from '@/Components/Terminal'
+import DiscoverBento from '@/Components/DiscoverBento'
 
 export const metadata = {
-    title: "Home | Xettle.net",
-};
+    title: 'Home | Xettle.net',
+}
 
 const page = () => {
     return (
@@ -43,14 +43,14 @@ const page = () => {
                 <div className="flex items-center">
                     <div className={roboto.className}>
                         <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
-                             <span className="whitespace-nowrap text-[#015EFE]">
+                            <span className="whitespace-nowrap text-[#015EFE]">
                                 Software
                             </span>
-                            ,{" "}
+                            ,{' '}
                             <span className="whitespace-nowrap text-[#015EFE]">
                                 Fin-Tech
                             </span>
-                            , and{" "}
+                            , and{' '}
                             <span className="whitespace-nowrap beyond">
                                 Beyond.
                             </span>
@@ -260,7 +260,7 @@ const page = () => {
                 </div>
             </section>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page
