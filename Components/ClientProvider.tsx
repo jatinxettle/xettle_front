@@ -1,11 +1,11 @@
-"use client";
+'use client'
 
-import { Toaster } from "react-hot-toast";
+import { Toaster } from 'sonner'
 
 export default function ClientProvider() {
-  return (
-    <>
-      <Toaster position="top-center" />
-    </>
-  );
+    return (
+        <>
+            <Toaster position="top-right" />
+        </>
+    )
 }
