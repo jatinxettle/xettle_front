@@ -321,9 +321,7 @@ export const Footer = () => {
                                             </svg>
 
                                             <address className="-mt-0.5 not-italic text-white">
-                                                715-A, Netaji Subhash Place, PP
-                                                Trade Center, Pitampura, New
-                                                Delhi, 110034
+                                                44 IIND FLOOR REGAL BUILDING, CONNAUGHT PLACE, NEWDELHI
                                             </address>
                                         </Link>
                                     </li>
