@@ -71,11 +71,8 @@ export default function ContactUsForm() {
                                     </Link>
                                     <p>
                                         <br />
-                                        Unit No. 715-A, Netaji Subhash Place,
-                                        Pitam Pura Shakur Pur, Dharmdev Saxena
-                                        Marg, Children Park C Block, Situated at
-                                        PP Trade Center, Pitampura, New Delhi,
-                                        North West Delhi, Delhi, 110034
+                                        44 IIND FLOOR REGAL BUILDING, 
+                                        CONNAUGHT PLACE, NEWDELHI
                                     </p>
                                 </div>
                             </div>
