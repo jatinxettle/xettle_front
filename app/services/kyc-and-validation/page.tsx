@@ -1,25 +1,25 @@
-import Image from "next/image";
-import React from "react";
-import Link from "next/link";
+import Image from 'next/image'
+import React from 'react'
+import Link from 'next/link'
 
-import "./game.css";
-import "./betting.css";
+import './game.css'
+import './betting.css'
 
-import skill from "./gameskill.png";
-import chances from "./gamechances.png";
-import carrom from "./carrom.png";
-import chess from "./chess.png";
-import horse from "./horse.png";
-import patti from "./patti.png";
-import rummy from "./rummy.png";
-import jack from "./jack.png";
-import roulette from "./roulette.png";
-import bingo from "./bingo.png";
-import Gamelottie from "@/Components/verificationlottie";
+import skill from './gameskill.png'
+import chances from './gamechances.png'
+import carrom from './carrom.png'
+import chess from './chess.png'
+import horse from './horse.png'
+import patti from './patti.png'
+import rummy from './rummy.png'
+import jack from './jack.png'
+import roulette from './roulette.png'
+import bingo from './bingo.png'
+import Gamelottie from '@/Components/verificationlottie'
 
 export const metadata = {
-    title: "KYC And Verification | Xettle.net",
-};
+    title: 'KYC And Verification | Xettle',
+}
 
 const page = () => {
     return (
@@ -35,9 +35,9 @@ const page = () => {
                     <div>
                         <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
                             <span className="whitespace-nowrap text-[#015EFE]">
-                                KYC{" "}
+                                KYC{' '}
                             </span>
-                            And{" "}
+                            And{' '}
                             <span className="whitespace-nowrap text-[#015EFE]">
                                 Identity Verification.
                             </span>
@@ -236,7 +236,7 @@ const page = () => {
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
                         <h1 className="text-[2rem] font-medium">
-                            Why Choose{" "}
+                            Why Choose{' '}
                             <span className="text-[#015dfd]"> Xettle?</span>
                         </h1>
                         <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
@@ -244,7 +244,7 @@ const page = () => {
                                 <li>
                                     <span className="font-semibold">
                                         Fast Onboarding:
-                                    </span>{" "}
+                                    </span>{' '}
                                     Automate manual tasks and onboard customers
                                     as soon as possible.
                                 </li>
@@ -257,7 +257,7 @@ const page = () => {
                                 </li>
                                 <li>
                                     <span className="font-semibold">
-                                        User-Centric Design:{" "}
+                                        User-Centric Design:{' '}
                                     </span>
                                     It is a perfect example of flexible
                                     workflows and seamless integration.
@@ -292,7 +292,7 @@ const page = () => {
                 </div>
             </section>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

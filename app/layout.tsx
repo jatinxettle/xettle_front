@@ -11,10 +11,10 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-    title: 'Fin-tech Software Development | Xettle.net',
+    title: 'Xettle: Business Software Solutions & Services',
     verification: { google: 'vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0' },
     description:
-        'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.',
+        'Xettle provides innovative business software solutions and services, helping organizations streamline operations and enhance productivity with cutting-edge technology.',
 }
 
 export const schemaData = {

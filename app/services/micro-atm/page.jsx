@@ -1,13 +1,13 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
-import hero from "./heroimg.png";
-import im2 from "./im2.png";
+import hero from './heroimg.png'
+import im2 from './im2.png'
 
 export const metadata = {
-    title: "Micro ATM | Xettle.net",
-};
+    title: 'Micro ATM | Xettle',
+}
 
 const page = () => {
     return (
@@ -41,8 +41,8 @@ const page = () => {
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
                         <h1 className="text-[2rem] font-medium">
-                            Xettle&apos;s{" "}
-                            <span className="text-[#015dfd]">Micro ATM</span>{" "}
+                            Xettle&apos;s{' '}
+                            <span className="text-[#015dfd]">Micro ATM</span>{' '}
                             Services
                         </h1>
                         <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
@@ -243,7 +243,7 @@ const page = () => {
                 </div>
             </section>
         </section>
-    );
-};
+    )
+}
 
-export default page;
+export default page

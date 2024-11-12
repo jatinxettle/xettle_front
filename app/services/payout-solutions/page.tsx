@@ -1,16 +1,16 @@
-import Image from "next/image";
-import React from "react";
-import Link from "next/link";
+import Image from 'next/image'
+import React from 'react'
+import Link from 'next/link'
 
-import Lottie from "@/Components/payoutlottie";
-import Bg from "@/Components/blockbg";
-import "./game.css";
-import im1 from "./im1.png";
-import im2 from "./im2.png";
+import Lottie from '@/Components/payoutlottie'
+import Bg from '@/Components/blockbg'
+import './game.css'
+import im1 from './im1.png'
+import im2 from './im2.png'
 
 export const metadata = {
-    title: "Payout Solutions | Xettle.net",
-};
+    title: 'Payout Solutions | Xettle',
+}
 
 const page = () => {
     return (
@@ -30,7 +30,7 @@ const page = () => {
                         <div>
                             <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
                                 <span className="whitespace-nowrap text-[#015EFE]">
-                                    Payout{" "}
+                                    Payout{' '}
                                 </span>
                                 Solutions
                             </h1>
@@ -257,7 +257,7 @@ const page = () => {
                         </div>
                         <div className="relative gitem3">
                             <h1 className="text-[2rem] font-medium">
-                                Payroll{" "}
+                                Payroll{' '}
                                 <span className="text-[#015dfd]">Services</span>
                             </h1>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
@@ -306,7 +306,7 @@ const page = () => {
                 </section>
             </div>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

@@ -1,14 +1,14 @@
-import Image from "next/image";
-import React from "react";
-import "./crypto.css";
-import Link from "next/link";
+import Image from 'next/image'
+import React from 'react'
+import './crypto.css'
+import Link from 'next/link'
 
-import himg from "./aeps_h.png";
-import why from "./why.png";
+import himg from './aeps_h.png'
+import why from './why.png'
 
 export const metadata = {
-    title: "AePS | Xettle.net",
-};
+    title: 'AePS | Xettle',
+}
 
 const page = () => {
     return (
@@ -23,7 +23,7 @@ const page = () => {
                         <div>
                             <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
                                 <span className="whitespace-nowrap text-[#015EFE]">
-                                    AePS{" "}
+                                    AePS{' '}
                                 </span>
                                 Aadhaar Banking
                             </h1>
@@ -224,13 +224,13 @@ const page = () => {
                     <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                         <div className="relative ggitem3">
                             <h1 className="text-[2rem] font-medium">
-                                Why Choose{" "}
-                                <span className="text-[#015dfd]">Xettle </span>{" "}
+                                Why Choose{' '}
+                                <span className="text-[#015dfd]">Xettle </span>{' '}
                                 for AePS Services?
                             </h1>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%]">
                                 <span className="font-semibold">
-                                    Comprehensive Service Range:{" "}
+                                    Comprehensive Service Range:{' '}
                                 </span>
                                 We offer all the basic banking needs ranging
                                 from cash deposits to balance inquiries among
@@ -238,7 +238,7 @@ const page = () => {
                             </p>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%]">
                                 <span className="font-semibold">
-                                    User-Friendly Technology:{" "}
+                                    User-Friendly Technology:{' '}
                                 </span>
                                 The platform is easy to navigate to make it
                                 easily accessible for all customers including
@@ -246,7 +246,7 @@ const page = () => {
                             </p>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%]">
                                 <span className="font-semibold">
-                                    Enhanced Security:{" "}
+                                    Enhanced Security:{' '}
                                 </span>
                                 Security measures are put in place to ensure
                                 that your transactions and personal details are
@@ -288,7 +288,7 @@ const page = () => {
                 </section>
             </div>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

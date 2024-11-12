@@ -1,18 +1,18 @@
-import Image from "next/image";
-import React from "react";
-import Contour from "@/Components/contour";
+import Image from 'next/image'
+import React from 'react'
+import Contour from '@/Components/contour'
 
-import "./game.css";
+import './game.css'
 
-import himg from "./bg.png";
-import bbpsh from "./bbpsh.png";
-import dth from "./dth.png";
-import bbp1 from "./bbps1.png";
-import Link from "next/link";
+import himg from './bg.png'
+import bbpsh from './bbpsh.png'
+import dth from './dth.png'
+import bbp1 from './bbps1.png'
+import Link from 'next/link'
 
 export const metadata = {
-    title: "Utility And Bill Payment | Xettle.net",
-};
+    title: 'Utility And Bill Payment | Xettle',
+}
 
 const page = () => {
     return (
@@ -35,11 +35,11 @@ const page = () => {
                 <div className="flex items-center">
                     <div>
                         <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
-                            Utility{" "}
+                            Utility{' '}
                             <span className="whitespace-nowrap text-[#015EFE]">
-                                Bill Payment{" "}
+                                Bill Payment{' '}
                             </span>
-                            And{" "}
+                            And{' '}
                             <span className="whitespace-nowrap text-[#015EFE]">
                                 Recharge
                             </span>
@@ -71,7 +71,7 @@ const page = () => {
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(2,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
                         <h1 className="text-[2rem] font-medium">
-                            Xettle&apos;s{" "}
+                            Xettle&apos;s{' '}
                             <span className="text-[#015dfd]">BBPS</span> &
                             Recharge Services
                         </h1>
@@ -308,7 +308,7 @@ const page = () => {
                 </div>
             </section>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

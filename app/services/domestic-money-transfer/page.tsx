@@ -1,15 +1,15 @@
-import Image from "next/image";
-import React from "react";
-import "./crypto.css";
-import "./game.css";
-import Link from "next/link";
+import Image from 'next/image'
+import React from 'react'
+import './crypto.css'
+import './game.css'
+import Link from 'next/link'
 
-import himg from "./aeps_h.png";
-import quick from "./quick.png";
+import himg from './aeps_h.png'
+import quick from './quick.png'
 
 export const metadata = {
-    title: "Domestic Money Transfer | Xettle.net",
-};
+    title: 'Domestic Money Transfer | Xettle',
+}
 
 const page = () => {
     return (
@@ -24,7 +24,7 @@ const page = () => {
                         <div>
                             <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
                                 <span className="whitespace-nowrap text-[#015EFE]">
-                                    DMT{" "}
+                                    DMT{' '}
                                 </span>
                                 Domestic Money Transfer
                             </h1>
@@ -217,10 +217,10 @@ const page = () => {
                     <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                         <div className="relative ggitem3">
                             <h1 className="text-[2rem] font-medium">
-                                <span className="text-[#015dfd]">Quick</span>{" "}
-                                and{" "}
+                                <span className="text-[#015dfd]">Quick</span>{' '}
+                                and{' '}
                                 <span className="text-[#015dfd]">
-                                    Reliable{" "}
+                                    Reliable{' '}
                                 </span>
                                 Money Transfers
                             </h1>
@@ -267,7 +267,7 @@ const page = () => {
                 </section>
             </div>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

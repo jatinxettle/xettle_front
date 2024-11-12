@@ -1,10 +1,9 @@
-import React from "react";
-import ContactUsForm from "@/Components/ContactUsForm";
+import React from 'react'
+import ContactUsForm from '@/Components/ContactUsForm'
 
 const page = () => {
     return (
         <main>
-            <title>Contact | Xettle.net</title>
             <section
                 id="hero"
                 className="mx-auto w-[100vw] max-w-[1920px] pt-[16%] px-[3%] flex flex-col items-center md:pt-[6%] md:px-[8%] pb-16"
@@ -12,7 +11,7 @@ const page = () => {
                 <h1 className="text-[2.5rem] font-bold text-center">
                     <span className="text-[#015dfd]">
                         How Can We Assist You?
-                    </span>{" "}
+                    </span>{' '}
                     <br />
                 </h1>
                 <div className="text-[#3c3d40]">
@@ -28,7 +27,7 @@ const page = () => {
             </section>
             <ContactUsForm />
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

@@ -1,10 +1,6 @@
-import React from "react";
-import "./about.css";
-import Lottie from "@/Components/aboutus";
-
-export const metadata = {
-    title: "About | Xettle.net",
-};
+import React from 'react'
+import './about.css'
+import Lottie from '@/Components/aboutus'
 
 const page = () => {
     return (
@@ -199,7 +195,7 @@ const page = () => {
                 </div>
             </main>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page

@@ -19,9 +19,9 @@ import Herobg from '@/Components/herobg'
 import Terminal from '@/Components/Terminal'
 import DiscoverBento from '@/Components/DiscoverBento'
 
-export const metadata = {
-    title: 'Home | Xettle.net',
-}
+// export const metadata = {
+//     title: 'Home | Xettle.net',
+// }
 
 const page = () => {
     return (

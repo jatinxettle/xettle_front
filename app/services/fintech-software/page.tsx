@@ -1,21 +1,21 @@
-import Image from "next/image";
-import React from "react";
-import "./fintech.css";
+import Image from 'next/image'
+import React from 'react'
+import './fintech.css'
 // import hero from "./fintech-hero.png";
 // import herom from "./fintech-herom.png";
-import cross from "./cross.png";
-import tick from "./tick.png";
-import aeps from "./aeps.png";
-import recharge from "./recharge.png";
-import pan from "./pan.png";
-import Contour from "@/Components/contour";
-import cart from "./cart.png";
-import Fintechlottie from "@/Components/fintechlottie";
-import Link from "next/link";
+import cross from './cross.png'
+import tick from './tick.png'
+import aeps from './aeps.png'
+import recharge from './recharge.png'
+import pan from './pan.png'
+import Contour from '@/Components/contour'
+import cart from './cart.png'
+import Fintechlottie from '@/Components/fintechlottie'
+import Link from 'next/link'
 
 export const metadata = {
-    title: "Fin-tech Software Development | Xettle.net",
-};
+    title: 'Fin-tech Software Development | Xettle',
+}
 
 const fintech = () => {
     return (
@@ -25,7 +25,7 @@ const fintech = () => {
                 className="mx-auto min-h-[90vh] w-[100vw] max-w-[1920px] pt-[16%] px-[3%] flex flex-col items-center md:pt-[6%] md:px-[8%] pb-16"
             >
                 <h1 className="text-[2.5rem] font-bold text-center">
-                    <span className="text-[#015dfd]">Fin-Tech</span> <br />{" "}
+                    <span className="text-[#015dfd]">Fin-Tech</span> <br />{' '}
                     Softwares
                 </h1>
                 <div className="text-[#3c3d40]">
@@ -312,7 +312,7 @@ const fintech = () => {
                                     <hr />
                                     <div className="flex items-center justify-between">
                                         <span className="text-[1.2rem] leading-[200%] font-semibold">
-                                            Domestic Money Transfer{" "}
+                                            Domestic Money Transfer{' '}
                                         </span>
                                         <Image
                                             src={cross}
@@ -462,7 +462,7 @@ const fintech = () => {
                                     <hr />
                                     <div className="flex items-center justify-between">
                                         <span className="text-[1.2rem] leading-[200%] font-semibold">
-                                            Domestic Money Transfer{" "}
+                                            Domestic Money Transfer{' '}
                                         </span>
                                         <Image
                                             src={tick}
@@ -897,7 +897,7 @@ const fintech = () => {
                 </div>
             </section>
         </main>
-    );
-};
+    )
+}
 
-export default fintech;
+export default fintech
