@@ -30,6 +30,7 @@ export default function RootLayout({
                     name="viewport"
                     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
                 />
+                <link rel="canonical" href="https://xettle.net/" />
                 <link rel="icon" href="./favicon.ico" sizes="any" />
             </head>
             <body className=" relative z-[-9999] overflow-x-hidden">
