@@ -14,7 +14,7 @@ export const metadata = {
     title: 'Fin-tech Software Development | Xettle.net',
     verification: { google: 'vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0' },
     description:
-        'Empowering financial inclusion with secure and innovative solutions, including Micro ATM services, KYC, and Identity Verification. Trusted technology for seamless digital transactions.',
+        'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.',
 }
 
 export default function RootLayout({
