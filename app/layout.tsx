@@ -43,6 +43,20 @@ export default function RootLayout({
                     name="viewport"
                     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
                 />
+                <meta
+                    property="og:title"
+                    content="Fin-tech Software Development | Xettle.net"
+                />
+                <meta
+                    property="og:description"
+                    content="Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:image"
+                    content="https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=1200&q=75"
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://xettle.net/" />
                 <link rel="canonical" href="https://xettle.net/" />
                 <link rel="icon" href="./favicon.ico" sizes="any" />
                 <script
