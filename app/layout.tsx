@@ -13,6 +13,8 @@ const roboto = Roboto({
 export const metadata = {
     title: 'Fin-tech Software Development | Xettle.net',
     verification: { google: 'vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0' },
+    description:
+        'Empowering financial inclusion with secure and innovative solutions, including Micro ATM services, KYC, and Identity Verification. Trusted technology for seamless digital transactions.',
 }
 
 export default function RootLayout({
@@ -23,7 +25,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <meta />
+                <meta {...metadata} />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"

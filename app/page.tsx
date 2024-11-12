@@ -56,11 +56,12 @@ const page = () => {
                             </span>
                         </h1>
                         <p className="text-justify text-[rgba(0,_0,_0,_0.70)] pt-3 lg:text-[1.1rem] font-medium">
-                            At Xettle, we are revolutionizing how businesses
-                            manage software and their finances. Our innovative
-                            approach combines industry expertise with
-                            cutting-edge technology to address real-world
-                            challenges effectively.
+                            The mission of Xettle Technologies is to advance
+                            financial inclusion through secure and efficient
+                            digital solutions. With services such as Micro ATMs,
+                            KYC, and Identity Verification, Xettle enables
+                            individuals and businesses to conveniently access
+                            banking and financial services.
                         </p>
                         <div className="mt-8 text-center lg:text-left h-fit">
                             <Link
