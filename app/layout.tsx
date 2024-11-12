@@ -14,7 +14,7 @@ export const metadata = {
     title: 'Xettle: Business Software Solutions & Services',
     verification: { google: 'vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0' },
     description:
-        'Xettle provides innovative business software solutions and services, helping organizations streamline operations and enhance productivity with cutting-edge technology.',
+        'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
 }
 
 export const schemaData = {
@@ -23,7 +23,7 @@ export const schemaData = {
     url: 'https://www.xettle.net', // Replace with your website's URL
     name: 'Xettle', // Name of your website
     description:
-        'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.', // Short description of your website
+        'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.', // Short description of your website
     publisher: {
         '@type': 'Organization', // Correct type for publisher (your organization)
         name: 'Xettle', // Name of the publisher organization
