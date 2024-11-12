@@ -17,6 +17,19 @@ export const metadata = {
         'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.',
 }
 
+export const schemaData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite', // Correct type, "WebSite" should have a capital 'S'
+    url: 'https://www.xettle.net', // Replace with your website's URL
+    name: 'Xettle', // Name of your website
+    description:
+        'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.', // Short description of your website
+    publisher: {
+        '@type': 'Organization', // Correct type for publisher (your organization)
+        name: 'Xettle', // Name of the publisher organization
+    },
+}
+
 export default function RootLayout({
     children,
 }: {
@@ -32,6 +45,12 @@ export default function RootLayout({
                 />
                 <link rel="canonical" href="https://xettle.net/" />
                 <link rel="icon" href="./favicon.ico" sizes="any" />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify(schemaData),
+                    }}
+                />
             </head>
             <body className=" relative z-[-9999] overflow-x-hidden">
                 <div className={`${roboto.className} relative z-[-9999]`}>
