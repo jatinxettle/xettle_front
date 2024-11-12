@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /privacy
+Disallow: /grievances
+Disallow: /terms
+Allow: /
+
+Sitemap: https://www.xettle.net/sitemap.xml
