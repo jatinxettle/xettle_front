@@ -43,7 +43,7 @@ const page = () => {
                         </div>
                     </div>
                     <div>
-                        <Image src={himg} width={900} alt="img" />
+                        <Image src={himg} width={900} alt="aeps-img" />
                     </div>
                 </section>
                 <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-[#777afa]">

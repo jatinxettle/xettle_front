@@ -264,7 +264,7 @@ const Header = () => {
                                                     </Link>
                                                     <Link
                                                         className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                                        href="/privacy"
+                                                        href="/privacy-policy"
                                                     >
                                                         <div className="text-sm font-medium leading-none">
                                                             Privacy Policy
@@ -272,7 +272,7 @@ const Header = () => {
                                                     </Link>
                                                     <Link
                                                         className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                                        href="/grievances"
+                                                        href="/customer-grievances"
                                                     >
                                                         <div className="text-sm font-medium leading-none">
                                                             Customer Grievances
@@ -280,7 +280,7 @@ const Header = () => {
                                                     </Link>
                                                     <Link
                                                         className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                                        href="/terms"
+                                                        href="/terms&conditions"
                                                     >
                                                         <div className="text-sm font-medium leading-none">
                                                             Terms & Conditions

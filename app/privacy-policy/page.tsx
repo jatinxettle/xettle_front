@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from 'react'
 
 const page = () => {
     return (
@@ -257,7 +256,7 @@ const page = () => {
                 </div>
             </section>
         </main>
-    );
-};
+    )
+}
 
-export default page;
+export default page
