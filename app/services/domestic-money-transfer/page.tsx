@@ -82,16 +82,16 @@ const page = () => {
                                             <path
                                                 d="M11.9982 2C8.99043 2 7.04018 4.01899 4.73371 4.7549C3.79589 5.05413 3.32697 5.20374 3.1372 5.41465C2.94743 5.62556 2.89186 5.93375 2.78072 6.55013C1.59143 13.146 4.1909 19.244 10.3903 21.6175C11.0564 21.8725 11.3894 22 12.0015 22C12.6135 22 12.9466 21.8725 13.6126 21.6175C19.8116 19.2439 22.4086 13.146 21.219 6.55013C21.1078 5.93364 21.0522 5.6254 20.8624 5.41449C20.6726 5.20358 20.2037 5.05405 19.2659 4.75499C16.9585 4.01915 15.0061 2 11.9982 2Z"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
+                                                strokeWidth="1.5"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M9 13C9 13 10 13 11 15C11 15 14.1765 10 17 9"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
+                                                strokeWidth="1.5"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
                                             />
                                         </svg>
                                     </div>
@@ -124,20 +124,20 @@ const page = () => {
                                             <path
                                                 d="M12 8V12L13.5 13.5"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
+                                                strokeWidth="1.5"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M19.5454 16.4534C21.1818 17.337 22 17.7789 22 18.5C22 19.2211 21.1818 19.663 19.5454 20.5466L18.4311 21.1484C17.1744 21.827 16.5461 22.1663 16.2439 21.9196C15.504 21.3154 16.6567 19.7561 16.9403 19.2037C17.2277 18.644 17.2225 18.3459 16.9403 17.7963C16.6567 17.2439 15.504 15.6846 16.2439 15.0804C16.5461 14.8337 17.1744 15.173 18.4311 15.8516L19.5454 16.4534Z"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
+                                                strokeWidth="1.5"
                                             />
                                             <path
                                                 d="M13.0261 21.948C12.6888 21.9824 12.3464 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 12.6849 21.9311 13.3538 21.8 14"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
-                                                stroke-linecap="round"
+                                                strokeWidth="1.5"
+                                                strokeLinecap="round"
                                             />
                                         </svg>
                                     </div>
@@ -170,29 +170,29 @@ const page = () => {
                                             <path
                                                 d="M2 8.56907C2 7.37289 2.48238 6.63982 3.48063 6.08428L7.58987 3.79744C9.7431 2.59915 10.8197 2 12 2C13.1803 2 14.2569 2.59915 16.4101 3.79744L20.5194 6.08428C21.5176 6.63982 22 7.3729 22 8.56907C22 8.89343 22 9.05561 21.9646 9.18894C21.7785 9.88945 21.1437 10 20.5307 10H3.46928C2.85627 10 2.22152 9.88944 2.03542 9.18894C2 9.05561 2 8.89343 2 8.56907Z"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
+                                                strokeWidth="1.5"
                                             />
                                             <path
                                                 d="M11.9959 7H12.0049"
                                                 stroke="currentColor"
-                                                stroke-width="2"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
                                             />
                                             <path
                                                 d="M4 10V18.5M8 10V18.5"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
+                                                strokeWidth="1.5"
                                             />
                                             <path
                                                 d="M16 10V18.5M20 10V18.5"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
+                                                strokeWidth="1.5"
                                             />
                                             <path
                                                 d="M19 18.5H5C3.34315 18.5 2 19.8431 2 21.5C2 21.7761 2.22386 22 2.5 22H21.5C21.7761 22 22 21.7761 22 21.5C22 19.8431 20.6569 18.5 19 18.5Z"
                                                 stroke="currentColor"
-                                                stroke-width="1.5"
+                                                strokeWidth="1.5"
                                             />
                                         </svg>
                                     </div>

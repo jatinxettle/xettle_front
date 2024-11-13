@@ -66,7 +66,7 @@ export default function RootLayout({
                     }}
                 />
             </head>
-            <body className=" relative z-[-9999] overflow-x-hidden">
+            <body className="relative z-[-9999] overflow-x-hidden">
                 <div className={`${roboto.className} relative z-[-9999]`}>
                     <Toaster position="top-right" />
                     <Header />

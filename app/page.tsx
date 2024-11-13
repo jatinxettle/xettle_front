@@ -230,7 +230,7 @@ const page = () => {
                             Why
                             <span className="text-[#015dfd]"> Xettle?</span>
                         </h2>
-                        <p className="py-3 opacity-75 w-[90%] lg:text-[1.1rem] font-medium">
+                        <div className="py-3 opacity-75 w-[90%] lg:text-[1.1rem] font-medium">
                             <ul className="list-disc">
                                 <li>
                                     Working experience in software and finance
@@ -245,7 +245,7 @@ const page = () => {
                                     as it grows.
                                 </li>
                             </ul>
-                        </p>
+                        </div>
                         <p className="text-[2rem] font-bold mt-4">
                             Let&apos;s Work Together
                         </p>

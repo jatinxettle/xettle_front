@@ -1,25 +1,24 @@
-"use client";
-import React, { useRef, useEffect, useState } from "react";
+'use client'
+import React, { useRef, useEffect, useState } from 'react'
 
-import "./terminal.css";
-import Typewriter from "typewriter-effect";
+import './terminal.css'
+import Typewriter from 'typewriter-effect'
 
 const Terminal = () => {
-    const ref = useRef<HTMLDivElement>(null);
-    const [terminalVisibility, SetTerminalVisibility] = useState(false);
+    const ref = useRef<HTMLDivElement>(null)
+    const [terminalVisibility, SetTerminalVisibility] = useState(false)
 
-    console.log("terminalVisibility", terminalVisibility);
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
-            const entry = entries[0];
+            const entry = entries[0]
             if (!entry.isIntersecting) {
-                return;
+                return
             }
             // console.log(entry);
-            SetTerminalVisibility(entry.isIntersecting);
-        });
-        observer.observe(ref.current!);
-    }, []);
+            SetTerminalVisibility(entry.isIntersecting)
+        })
+        observer.observe(ref.current!)
+    }, [])
 
     return (
         <div className="containerhome mx-auto mt-3 w-[90%] md:w-[40vw] lg:w-[30vw]">
@@ -40,7 +39,7 @@ const Terminal = () => {
                     {terminalVisibility ? (
                         <Typewriter
                             options={{
-                                cursor: "|",
+                                cursor: '|',
                                 delay: 20,
                                 // strings: [
                                 //     `curl --request GET
@@ -57,21 +56,21 @@ const Terminal = () => {
                                         --header 'accept: application/json`
                                     )
                                     .callFunction(() => {
-                                        console.log("String typed out!");
+                                        console.log('String typed out!')
                                     })
                                     .pauseFor(2500)
-                                    .start();
+                                    .start()
                             }}
                         />
                     ) : (
-                        ""
+                        ''
                     )}
 
                     {/* <span className="terminal_cursor"></span> */}
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Terminal;
+export default Terminal

@@ -1,30 +1,30 @@
-"use client";
+'use client'
 
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react'
 // import * as React from "react";
 // import { cn } from "@/lib/utils";
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
 
-import "./header.css";
+import './header.css'
 
-import Logo from "app/logo.png";
-import cmpny from "./cmpny.png";
+import Logo from 'app/logo.png'
+import cmpny from './cmpny.png'
 // import Ham from "@/Components/ham";
 // import X from "@/Components/x";
-import Fin from "./finance.svg";
-import Api from "./api.svg";
-import Reg from "./reg.svg";
-import Ecom from "./ecom.svg";
-import Kyc from "./kyc.svg";
-import Edu from "./edu.svg";
-import Inv from "./inv.svg";
-import Pay from "./pay.svg";
-import Aeps from "./aeps.svg";
-import Bbps from "./bbps.svg";
-import Atm from "./atm.svg";
-import Dmt from "./dmt.svg";
+import Fin from './finance.svg'
+import Api from './api.svg'
+import Reg from './reg.svg'
+import Ecom from './ecom.svg'
+import Kyc from './kyc.svg'
+import Edu from './edu.svg'
+import Inv from './inv.svg'
+import Pay from './pay.svg'
+import Aeps from './aeps.svg'
+import Bbps from './bbps.svg'
+import Atm from './atm.svg'
+import Dmt from './dmt.svg'
 
 import {
     NavigationMenu,
@@ -35,7 +35,7 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
     NavigationMenuViewport,
-} from "@/Components/ui/navigation-menu";
+} from '@/Components/ui/navigation-menu'
 
 import {
     Drawer,
@@ -46,121 +46,119 @@ import {
     DrawerHeader,
     DrawerTitle,
     DrawerTrigger,
-} from "@/Components/ui/drawer";
+} from '@/Components/ui/drawer'
 
 import {
     Accordion,
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
-} from "@/Components/ui/accordion";
+} from '@/Components/ui/accordion'
 
-import { navigationMenuTriggerStyle } from "@/Components/ui/navigation-menu";
+import { navigationMenuTriggerStyle } from '@/Components/ui/navigation-menu'
 
-import { Roboto } from "next/font/google";
+import { Roboto } from 'next/font/google'
 const roboto = Roboto({
-    subsets: ["latin"],
-    weight: ["500", "700"],
-});
+    subsets: ['latin'],
+    weight: ['500', '700'],
+})
 
 const Header = () => {
-    const [navbar, setNavbar] = useState(false);
-    const [header, setHeader] = useState(false);
-    const [isVisible, setIsVisible] = useState(false);
+    const [navbar, setNavbar] = useState(false)
+    const [header, setHeader] = useState(false)
+    const [isVisible, setIsVisible] = useState(false)
 
     const scrollHeader = () => {
         if (window.scrollY >= 30) {
-            setHeader(true);
-            console.log(setHeader);
+            setHeader(true)
         } else {
-            console.log(setHeader);
-            setHeader(false);
+            setHeader(false)
         }
-    };
+    }
 
     useEffect(() => {
-        window.addEventListener("scroll", scrollHeader);
-        window.addEventListener("scroll", handleScroll);
+        window.addEventListener('scroll', scrollHeader)
+        window.addEventListener('scroll', handleScroll)
         return () => {
-            window.addEventListener("scroll", scrollHeader);
-            window.addEventListener("scroll", handleScroll);
-        };
-    }, []);
+            window.addEventListener('scroll', scrollHeader)
+            window.addEventListener('scroll', handleScroll)
+        }
+    }, [])
 
     const handleScroll = () => {
         if (window.scrollY > 50) {
-            setIsVisible(true);
+            setIsVisible(true)
         } else {
-            setIsVisible(false);
+            setIsVisible(false)
         }
-    };
+    }
 
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
-            behavior: "smooth",
-        });
-    };
+            behavior: 'smooth',
+        })
+    }
 
     const services = [
         {
-            title: "AePS Services",
-            description: "Empowering transactions with seamless AEPS service",
-            href: "/services/aeps",
+            title: 'AePS Services',
+            description: 'Empowering transactions with seamless AEPS service',
+            href: '/services/aeps',
             svg: Aeps,
         },
         {
-            title: "Utility Payment Solutions",
+            title: 'Utility Payment Solutions',
             description:
-                "Comprehensive BBPS service for seamless bill payments and recharges",
-            href: "/services/utility-payments",
+                'Comprehensive BBPS service for seamless bill payments and recharges',
+            href: '/services/utility-payments',
             svg: Bbps,
         },
         {
-            title: "Domestic Money Transfer",
+            title: 'Domestic Money Transfer',
             description:
-                "Instant domestic money transfers for seamless, quick financial transactions",
-            href: "/services/domestic-money-transfer",
+                'Instant domestic money transfers for seamless, quick financial transactions',
+            href: '/services/domestic-money-transfer',
             svg: Dmt,
         },
         {
-            title: "Micro ATM",
+            title: 'Micro ATM',
             description:
-                "Portable mATM for cash withdrawals and balance enquiries anywhere",
-            href: "/services/micro-atm",
+                'Portable mATM for cash withdrawals and balance enquiries anywhere',
+            href: '/services/micro-atm',
             svg: Atm,
         },
         {
-            title: "Fin-Tech Software",
+            title: 'Fin-Tech Software',
             description:
-                "Crafting innovative financial technology solutions for modern markets",
-            href: "/services/fintech-software",
+                'Crafting innovative financial technology solutions for modern markets',
+            href: '/services/fintech-software',
             svg: Fin,
         },
         {
-            title: "Payout Solutions",
+            title: 'Payout Solutions',
             description:
-                "Streamlined, Payouts for efficient financial transactions",
-            href: "/services/payout-solutions",
+                'Streamlined, Payouts for efficient financial transactions',
+            href: '/services/payout-solutions',
             svg: Pay,
         },
 
         {
-            title: "KYC and Validation",
+            title: 'KYC and Validation',
             description:
-                "Implementing secure Know Your Customer (KYC) and validation processes",
-            href: "/services/kyc-and-validation",
+                'Implementing secure Know Your Customer (KYC) and validation processes',
+            href: '/services/kyc-and-validation',
             svg: Kyc,
         },
-    ];
+    ]
 
     return (
         <main className="bg-transparent">
             <header
                 className={
                     header
-                        ? "lg:h-[8vh] h-[7vh] flex justify-center items-center fixed w-[100vw] z-[9999] bg-white transition-all duration-500 shadow-[0px_4px_35px_0px_rgba(0,0,0,0.15)]"
-                        : "lg:h-[8vh] h-[7vh] flex justify-center items-center fixed w-[100vw] z-[9999] bg-transparent transition-all duration-500"
+                        ? 'lg:h-[8vh] h-[7vh] flex justify-center items-center fixed w-[100vw] z-[9999] bg-white transition-all duration-500 shadow-[0px_4px_35px_0px_rgba(0,0,0,0.15)]'
+                        : 'lg:h-[8vh] h-[7vh] flex justify-center items-center fixed w-[100vw] z-[9999] bg-transparent transition-all duration-500'
                 }
             >
                 <nav className="flex items-center justify-between w-[95%] md:w-[82%] ">
@@ -348,22 +346,22 @@ const Header = () => {
                             <path
                                 d="M2 18C2 16.4596 2 15.6893 2.34673 15.1235C2.54074 14.8069 2.80693 14.5407 3.12353 14.3467C3.68934 14 4.45956 14 6 14C7.54044 14 8.31066 14 8.87647 14.3467C9.19307 14.5407 9.45926 14.8069 9.65327 15.1235C10 15.6893 10 16.4596 10 18C10 19.5404 10 20.3107 9.65327 20.8765C9.45926 21.1931 9.19307 21.4593 8.87647 21.6533C8.31066 22 7.54044 22 6 22C4.45956 22 3.68934 22 3.12353 21.6533C2.80693 21.4593 2.54074 21.1931 2.34673 20.8765C2 20.3107 2 19.5404 2 18Z"
                                 stroke="currentColor"
-                                stroke-width="1.5"
+                                strokeWidth="1.5"
                             />
                             <path
                                 d="M14 18C14 16.4596 14 15.6893 14.3467 15.1235C14.5407 14.8069 14.8069 14.5407 15.1235 14.3467C15.6893 14 16.4596 14 18 14C19.5404 14 20.3107 14 20.8765 14.3467C21.1931 14.5407 21.4593 14.8069 21.6533 15.1235C22 15.6893 22 16.4596 22 18C22 19.5404 22 20.3107 21.6533 20.8765C21.4593 21.1931 21.1931 21.4593 20.8765 21.6533C20.3107 22 19.5404 22 18 22C16.4596 22 15.6893 22 15.1235 21.6533C14.8069 21.4593 14.5407 21.1931 14.3467 20.8765C14 20.3107 14 19.5404 14 18Z"
                                 stroke="currentColor"
-                                stroke-width="1.5"
+                                strokeWidth="1.5"
                             />
                             <path
                                 d="M2 6C2 4.45956 2 3.68934 2.34673 3.12353C2.54074 2.80693 2.80693 2.54074 3.12353 2.34673C3.68934 2 4.45956 2 6 2C7.54044 2 8.31066 2 8.87647 2.34673C9.19307 2.54074 9.45926 2.80693 9.65327 3.12353C10 3.68934 10 4.45956 10 6C10 7.54044 10 8.31066 9.65327 8.87647C9.45926 9.19307 9.19307 9.45926 8.87647 9.65327C8.31066 10 7.54044 10 6 10C4.45956 10 3.68934 10 3.12353 9.65327C2.80693 9.45926 2.54074 9.19307 2.34673 8.87647C2 8.31066 2 7.54044 2 6Z"
                                 stroke="currentColor"
-                                stroke-width="1.5"
+                                strokeWidth="1.5"
                             />
                             <path
                                 d="M14 6C14 4.45956 14 3.68934 14.3467 3.12353C14.5407 2.80693 14.8069 2.54074 15.1235 2.34673C15.6893 2 16.4596 2 18 2C19.5404 2 20.3107 2 20.8765 2.34673C21.1931 2.54074 21.4593 2.80693 21.6533 3.12353C22 3.68934 22 4.45956 22 6C22 7.54044 22 8.31066 21.6533 8.87647C21.4593 9.19307 21.1931 9.45926 20.8765 9.65327C20.3107 10 19.5404 10 18 10C16.4596 10 15.6893 10 15.1235 9.65327C14.8069 9.45926 14.5407 9.19307 14.3467 8.87647C14 8.31066 14 7.54044 14 6Z"
                                 stroke="currentColor"
-                                stroke-width="1.5"
+                                strokeWidth="1.5"
                             />
                         </svg>
                     </DrawerTrigger>
@@ -487,26 +485,26 @@ const Header = () => {
                 fill="none"
                 onClick={scrollToTop}
                 className={` ${
-                    isVisible ? "opacity-100" : " opacity-0"
+                    isVisible ? 'opacity-100' : ' opacity-0'
                 } transition-all duration-500 rounded-full h-[35px] w-[35px] p-[7px] bg-[#d9ffef] shadow-xl fixed scale-90 right-5 bottom-5`}
             >
                 <path
                     d="M12 4L12 20"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                 ></path>
                 <path
                     d="M17 8.99996C17 8.99996 13.3176 4.00001 12 4C10.6824 3.99999 7 9 7 9"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                 ></path>
             </svg>
         </main>
-    );
-};
+    )
+}
 
-export default Header;
+export default Header
