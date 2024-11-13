@@ -62,9 +62,8 @@ export default function RootLayout({
                 <link rel="icon" href="./favicon.ico" sizes="any" />
 
                 <meta
-                    title="Xettle: Business Software Solutions &amp; Services | IG: @xettle_technologies"
-                    verification="[object Object]"
-                    description="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
+                    name="description"
+                    content="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
                 />
                 <meta
                     property="og:title"
@@ -85,9 +84,8 @@ export default function RootLayout({
                 />
 
                 <meta
-                    title="Xettle: Business Software Solutions &amp; Services | X: @xettle_tech"
-                    verification="[object Object]"
-                    description="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
+                    name="description"
+                    content="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
                 />
                 <meta
                     property="og:title"
@@ -108,9 +106,8 @@ export default function RootLayout({
                 />
 
                 <meta
-                    title="Xettle: Business Software Solutions &amp; Services | LinkedIn: @xettle_technologies"
-                    verification="[object Object]"
-                    description="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
+                    name="description"
+                    content="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
                 />
                 <meta
                     property="og:title"
