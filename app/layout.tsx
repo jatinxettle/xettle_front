@@ -20,7 +20,7 @@ export const metadata = {
         description:
             'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
         url: 'https://xettle.net/',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xhRJxCrwQT8b3OYIjFyVD0uWiTlCsR9Dqg&s',
+        image: './metaImg.jpg',
         type: 'website',
     },
     twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
         title: 'Xettle: Business Software Solutions & Services',
         description:
             'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
-        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=1200&q=75',
+        image: './metaImg.jpg',
         creator: '@xettle_tech', // Twitter handle
     },
 }
