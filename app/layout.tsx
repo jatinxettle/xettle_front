@@ -15,42 +15,34 @@ export const metadata = {
     verification: { google: 'vCfgnA3NzYM0MQcSROsl_BjSWB63Jjr_OuYzPg9xAT0' },
     description:
         'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
-}
-
-export const socialMeta = {
-    instagram: {
-        title: 'Fin-tech Software Development | Xettle.net | IG: @xettle_technologies',
+    openGraph: {
+        title: 'Xettle: Business Software Solutions & Services',
         description:
-            'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.',
-        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75',
-        url: 'https://instagram.com/xettle_technologies',
+            'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
+        url: 'https://xettle.net/',
+        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=1200&q=75',
+        type: 'website',
     },
     twitter: {
-        title: 'Fin-tech Software Development | Xettle.net | X: @xettle_tech',
+        card: 'summary_large_image',
+        title: 'Xettle: Business Software Solutions & Services',
         description:
-            'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.',
-        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75',
-        url: 'https://twitter.com/xettle_tech',
-    },
-    linkedin: {
-        title: 'Fin-tech Software Development | Xettle.net | LinkedIn: @xettle_technologies',
-        description:
-            'Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions.',
-        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75',
-        url: 'https://linkedin.com/company/xettle_technologies',
+            'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
+        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=1200&q=75',
+        creator: '@xettle_tech', // Twitter handle
     },
 }
 
 export const schemaData = {
     '@context': 'https://schema.org',
-    '@type': 'WebSite', // Correct type, "WebSite" should have a capital 'S'
-    url: 'https://www.xettle.net', // Replace with your website's URL
-    name: 'Xettle', // Name of your website
+    '@type': 'WebSite',
+    url: 'https://www.xettle.net',
+    name: 'Xettle',
     description:
-        'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.', // Short description of your website
+        'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
     publisher: {
-        '@type': 'Organization', // Correct type for publisher (your organization)
-        name: 'Xettle', // Name of the publisher organization
+        '@type': 'Organization',
+        name: 'Xettle',
     },
 }
 
@@ -62,66 +54,35 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                <meta name="title" content={metadata.title} />
                 <meta name="description" content={metadata.description} />
-                <meta property="og:title" content={metadata.title} />
                 <meta
-                    property="og:description"
-                    content={metadata.description}
+                    name="google-site-verification"
+                    content={metadata.verification.google}
                 />
-                <meta
-                    property="og:image"
-                    content="https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75"
-                />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://xettle.net/" />
 
-                {/* Instagram Meta Tags */}
-                <meta
-                    name="description"
-                    content={socialMeta.instagram.description}
-                />
-                <meta
-                    property="og:title"
-                    content={socialMeta.instagram.title}
-                />
+                {/* Open Graph Meta Tags */}
+                <meta property="og:title" content={metadata.openGraph.title} />
                 <meta
                     property="og:description"
-                    content={socialMeta.instagram.description}
+                    content={metadata.openGraph.description}
                 />
-                <meta
-                    property="og:image"
-                    content={socialMeta.instagram.image}
-                />
-                <meta property="og:type" content="profile" />
-                <meta property="og:url" content={socialMeta.instagram.url} />
+                <meta property="og:url" content={metadata.openGraph.url} />
+                <meta property="og:image" content={metadata.openGraph.image} />
+                <meta property="og:type" content={metadata.openGraph.type} />
 
                 {/* Twitter Meta Tags */}
+                <meta name="twitter:card" content={metadata.twitter.card} />
+                <meta name="twitter:title" content={metadata.twitter.title} />
                 <meta
-                    name="description"
-                    content={socialMeta.twitter.description}
+                    name="twitter:description"
+                    content={metadata.twitter.description}
                 />
-                <meta property="og:title" content={socialMeta.twitter.title} />
+                <meta name="twitter:image" content={metadata.twitter.image} />
                 <meta
-                    property="og:description"
-                    content={socialMeta.twitter.description}
+                    name="twitter:creator"
+                    content={metadata.twitter.creator}
                 />
-                <meta property="og:image" content={socialMeta.twitter.image} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={socialMeta.twitter.url} />
-
-                {/* LinkedIn Meta Tags */}
-                <meta
-                    name="description"
-                    content={socialMeta.linkedin.description}
-                />
-                <meta property="og:title" content={socialMeta.linkedin.title} />
-                <meta
-                    property="og:description"
-                    content={socialMeta.linkedin.description}
-                />
-                <meta property="og:image" content={socialMeta.linkedin.image} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={socialMeta.linkedin.url} />
 
                 <link rel="canonical" href="https://xettle.net/" />
                 <link rel="icon" href="./favicon.ico" sizes="any" />
