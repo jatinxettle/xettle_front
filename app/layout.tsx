@@ -57,8 +57,79 @@ export default function RootLayout({
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://xettle.net/" />
+
                 <link rel="canonical" href="https://xettle.net/" />
                 <link rel="icon" href="./favicon.ico" sizes="any" />
+
+                <meta
+                    title="Xettle: Business Software Solutions &amp; Services | IG: @xettle_technologies"
+                    verification="[object Object]"
+                    description="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:title"
+                    content="Fin-tech Software Development | Xettle.net | IG: @xettle_technologies"
+                />
+                <meta
+                    property="og:description"
+                    content="Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:image"
+                    content="https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75"
+                />
+                <meta property="og:type" content="profile" />
+                <meta
+                    property="og:url"
+                    content="https://instagram.com/xettle_technologies"
+                />
+
+                <meta
+                    title="Xettle: Business Software Solutions &amp; Services | X: @xettle_tech"
+                    verification="[object Object]"
+                    description="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:title"
+                    content="Fin-tech Software Development | Xettle.net | X: @xettle_tech"
+                />
+                <meta
+                    property="og:description"
+                    content="Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:image"
+                    content="https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75"
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:url"
+                    content="https://twitter.com/xettle_tech"
+                />
+
+                <meta
+                    title="Xettle: Business Software Solutions &amp; Services | LinkedIn: @xettle_technologies"
+                    verification="[object Object]"
+                    description="Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:title"
+                    content="Fin-tech Software Development | Xettle.net | LinkedIn: @xettle_technologies"
+                />
+                <meta
+                    property="og:description"
+                    content="Empowering financial inclusion with secure, innovative solutions like Micro ATM and KYC Verification for seamless, accessible digital transactions."
+                />
+                <meta
+                    property="og:image"
+                    content="https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&amp;w=1200&amp;q=75"
+                />
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:url"
+                    content="https://linkedin.com/company/xettle_technologies"
+                />
+
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
