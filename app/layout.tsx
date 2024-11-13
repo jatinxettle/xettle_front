@@ -1,5 +1,6 @@
 import './globals.css'
 import { Roboto } from 'next/font/google'
+import metaImg from './metaImg.jpg'
 import { Toaster } from 'sonner'
 import Header from '@/Components/Header'
 import { Footer } from '@/Components/Footer'
@@ -20,7 +21,7 @@ export const metadata = {
         description:
             'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
         url: 'https://xettle.net/',
-        image: './metaImg.jpg',
+        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=1200&q=75',
         type: 'website',
     },
     twitter: {
@@ -28,7 +29,7 @@ export const metadata = {
         title: 'Xettle: Business Software Solutions & Services',
         description:
             'Empowering financial inclusion with secure, innovative Micro ATM and KYC solutions for seamless, accessible digital transactions.',
-        image: './metaImg.jpg',
+        image: 'https://www.xettle.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6802fdda.png&w=1200&q=75',
         creator: '@xettle_tech', // Twitter handle
     },
 }
