@@ -306,12 +306,13 @@ const page = () => {
                         </h3>
                         <p className="pt-4 text-[1.1rem]">
                             In case the Customer do not get a satisfactory
-                            response or Merchant does not respond to Customer’s
-                            emails & phone calls within 7 working days from the
-                            date of transaction made by the Customer, then the
-                            Customer can contact Xettle to mediate and amicably
-                            resolve the issue. The Customer may provide Xettle
-                            with the following details :
+                            response or Merchant does not respond to
+                            Customer&apos;s emails & phone calls within 7
+                            working days from the date of transaction made by
+                            the Customer, then the Customer can contact Xettle
+                            to mediate and amicably resolve the issue. The
+                            Customer may provide Xettle with the following
+                            details :
                         </p>
                         <ul className="list-disc pl-4">
                             <li>Date of transaction</li>

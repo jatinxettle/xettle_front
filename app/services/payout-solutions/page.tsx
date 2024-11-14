@@ -7,7 +7,6 @@ import Bg from '@/Components/blockbg'
 import './game.css'
 import im1 from './im1.webp'
 import im2 from './im2.webp'
-import { Description } from '@radix-ui/react-dialog'
 
 export const metadata = {
     title: 'Payout Solutions | Xettle',

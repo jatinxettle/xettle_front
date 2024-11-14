@@ -238,6 +238,22 @@ export const Footer = () => {
                                                 Contact Us
                                             </Link>
                                         </li>
+                                        <li>
+                                            <Link
+                                                className="text-white transition hover:text-white/75"
+                                                href="/privacy-policy"
+                                            >
+                                                Privacy Policy
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="text-white transition hover:text-white/75"
+                                                href="/terms&conditions"
+                                            >
+                                                Terms & Conditions
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
