@@ -12,6 +12,8 @@ import Link from 'next/link'
 
 export const metadata = {
     title: 'Utility And Bill Payment | Xettle',
+    desciption:
+        'Enjoy the flexibility of paying your utility bills from home. The online platform of Xettle provides a simple way to make payments.',
 }
 
 const page = () => {

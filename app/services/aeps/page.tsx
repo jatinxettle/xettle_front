@@ -8,6 +8,8 @@ import why from './why.png'
 
 export const metadata = {
     title: 'AePS | Xettle',
+    description:
+        'The transfer of money securely is made simple using Xettle AePS, which provides a quick and easy method of managing payments.',
 }
 
 const page = () => {

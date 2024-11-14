@@ -15,6 +15,8 @@ import Link from 'next/link'
 
 export const metadata = {
     title: 'Fin-tech Software Development | Xettle',
+    description:
+        'Simplify your financial operations with Xettle user-friendly fintech software. Focus on what matters most - growing your business.',
 }
 
 const fintech = () => {

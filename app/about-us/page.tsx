@@ -2,6 +2,12 @@ import React from 'react'
 import './about.css'
 import Lottie from '@/Components/aboutus'
 
+export const metadata = {
+    title: 'About Us | Xettle',
+    description:
+        'Xettle is a fintech leader that combines trust and innovation. Our mission? to encourage digital transactions and provide safe solutions to companies all around the world.',
+}
+
 const page = () => {
     return (
         <main className="bg-[#f9fbff] aboutmain">

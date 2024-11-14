@@ -7,9 +7,12 @@ import Bg from '@/Components/blockbg'
 import './game.css'
 import im1 from './im1.png'
 import im2 from './im2.png'
+import { Description } from '@radix-ui/react-dialog'
 
 export const metadata = {
     title: 'Payout Solutions | Xettle',
+    description:
+        'Xettle offers secure, seamless payout solutions for businesses, enabling fast, reliable transactions with easy integration, real-time tracking, and top-notch support.',
 }
 
 const page = () => {

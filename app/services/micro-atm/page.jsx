@@ -7,6 +7,8 @@ import im2 from './im2.png'
 
 export const metadata = {
     title: 'Micro ATM | Xettle',
+    description:
+        'With Xettle Micro ATM, banking services are now more accessible. Allow cash transfers, deposits, and withdrawals to provide your clients access to money.',
 }
 
 const page = () => {

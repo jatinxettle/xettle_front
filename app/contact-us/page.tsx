@@ -1,6 +1,11 @@
 import React from 'react'
 import ContactUsForm from '@/Components/ContactUsForm'
 
+export const metadata = {
+    title: 'Contact Us | Xettle',
+    description:
+        'Problems regarding our fintech offerings? Speak with Xettle, your digital finance solutions partner. Our goal is to assist you on your path to innovation.',
+}
 const page = () => {
     return (
         <main>

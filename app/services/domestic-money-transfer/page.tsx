@@ -9,6 +9,8 @@ import quick from './quick.png'
 
 export const metadata = {
     title: 'Domestic Money Transfer | Xettle',
+    description:
+        'With Xettle, you may send money to anyone in India right now, providing a fast and trustworthy method of real-time money transfers.',
 }
 
 const page = () => {

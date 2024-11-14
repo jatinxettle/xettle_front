@@ -16,9 +16,12 @@ import jack from './jack.png'
 import roulette from './roulette.png'
 import bingo from './bingo.png'
 import Gamelottie from '@/Components/verificationlottie'
+import { Description } from '@radix-ui/react-dialog'
 
 export const metadata = {
     title: 'KYC And Verification | Xettle',
+    description:
+        'Secure and quick identity verification is guaranteed by Xettle KYC solution. Obtain compliance and establish credibility for modern business with quick, trustworthy verification.',
 }
 
 const page = () => {
