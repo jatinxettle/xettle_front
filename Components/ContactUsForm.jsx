@@ -86,7 +86,7 @@ export default function ContactUsForm() {
                                     <p>
                                         <br />
                                         44 IIND FLOOR REGAL BUILDING, CONNAUGHT
-                                        PLACE, NEWDELHI
+                                        PLACE, NEW DELHI
                                     </p>
                                 </div>
                             </div>

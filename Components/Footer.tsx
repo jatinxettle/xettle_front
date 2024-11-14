@@ -338,7 +338,7 @@ export const Footer = () => {
 
                                             <address className="-mt-0.5 not-italic text-white">
                                                 44 IIND FLOOR REGAL BUILDING,
-                                                CONNAUGHT PLACE, NEWDELHI
+                                                CONNAUGHT PLACE, NEW DELHI
                                             </address>
                                         </Link>
                                     </li>
