@@ -4,8 +4,8 @@ import './crypto.css'
 import './game.css'
 import Link from 'next/link'
 
-import himg from './aeps_h.png'
-import quick from './quick.png'
+import himg from './aeps_h.webp'
+import quick from './quick.webp'
 
 export const metadata = {
     title: 'Domestic Money Transfer | Xettle',

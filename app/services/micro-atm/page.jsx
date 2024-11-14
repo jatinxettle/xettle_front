@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import hero from './heroimg.png'
-import im2 from './im2.png'
+import hero from './heroimg.webp'
+import im2 from './im2.webp'
 
 export const metadata = {
     title: 'Micro ATM | Xettle',

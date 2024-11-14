@@ -1,6 +1,5 @@
 import './globals.css'
 import { Roboto } from 'next/font/google'
-import metaImg from './metaImg.jpg'
 import { Toaster } from 'sonner'
 import Header from '@/Components/Header'
 import { Footer } from '@/Components/Footer'

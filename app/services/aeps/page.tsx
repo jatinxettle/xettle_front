@@ -3,8 +3,8 @@ import React from 'react'
 import './crypto.css'
 import Link from 'next/link'
 
-import himg from './aeps_h.png'
-import why from './why.png'
+import himg from './aeps_h.webp'
+import why from './why.webp'
 
 export const metadata = {
     title: 'AePS | Xettle',

@@ -5,8 +5,8 @@ import Link from 'next/link'
 import Lottie from '@/Components/payoutlottie'
 import Bg from '@/Components/blockbg'
 import './game.css'
-import im1 from './im1.png'
-import im2 from './im2.png'
+import im1 from './im1.webp'
+import im2 from './im2.webp'
 import { Description } from '@radix-ui/react-dialog'
 
 export const metadata = {

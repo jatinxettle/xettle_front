@@ -10,9 +10,9 @@ import Image from 'next/image'
 
 import './landing.css'
 
-import gateway from './gateway.png'
-import stop from './stop.png'
-import tailored from './tailored.png'
+import gateway from './gateway.webp'
+import stop from './stop.webp'
+import tailored from './tailored.webp'
 import Contour from '@/Components/contourimg'
 import Herolottie from '@/Components/herolottie'
 import Herobg from '@/Components/herobg'

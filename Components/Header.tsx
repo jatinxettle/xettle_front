@@ -9,17 +9,12 @@ import Link from 'next/link'
 
 import './header.css'
 
-import Logo from 'app/logo.png'
-import cmpny from './cmpny.png'
+import Logo from 'app/logo.webp'
+import cmpny from './cmpny.webp'
 // import Ham from "@/Components/ham";
 // import X from "@/Components/x";
 import Fin from './finance.svg'
-import Api from './api.svg'
-import Reg from './reg.svg'
-import Ecom from './ecom.svg'
 import Kyc from './kyc.svg'
-import Edu from './edu.svg'
-import Inv from './inv.svg'
 import Pay from './pay.svg'
 import Aeps from './aeps.svg'
 import Bbps from './bbps.svg'

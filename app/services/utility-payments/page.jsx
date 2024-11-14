@@ -4,10 +4,9 @@ import Contour from '@/Components/contour'
 
 import './game.css'
 
-import himg from './bg.png'
-import bbpsh from './bbpsh.png'
-import dth from './dth.png'
-import bbp1 from './bbps1.png'
+import bbpsh from './bbpsh.webp'
+import dth from './dth.webp'
+import bbp1 from './bbps1.webp'
 import Link from 'next/link'
 
 export const metadata = {

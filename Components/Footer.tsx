@@ -3,7 +3,7 @@ import './footer.css'
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from 'app/logo-wt.png'
+import Logo from 'app/logo-wt.webp'
 
 export const Footer = () => {
     return (
