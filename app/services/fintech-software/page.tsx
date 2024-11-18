@@ -5,13 +5,24 @@ import './fintech.css'
 // import herom from "./fintech-herom.png";
 import cross from './cross.webp'
 import tick from './tick.webp'
+import dynamic from 'next/dynamic'
 import aeps from './aeps.webp'
 import recharge from './recharge.webp'
 import pan from './pan.webp'
-import Contour from '@/Components/contour'
 import cart from './cart.webp'
-import Fintechlottie from '@/Components/fintechlottie'
 import Link from 'next/link'
+
+const Fintechlottie = dynamic(
+    () => import('../../../Components/fintechlottie'),
+    {
+        ssr: false, // Disable server-side rendering for this component if it's client-only
+        loading: () => <></>, // Optional loading state
+    }
+)
+const Contour = dynamic(() => import('../../../Components/contour'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
 
 export const metadata = {
     title: 'Fin-tech Software Development | Xettle',

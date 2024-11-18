@@ -9,14 +9,24 @@ const roboto = Roboto({
 import Image from 'next/image'
 
 import './landing.css'
+import dynamic from 'next/dynamic'
 
 import gateway from './gateway.webp'
 import stop from './stop.webp'
 import tailored from './tailored.webp'
 import Contour from '@/Components/contourimg'
-import Herolottie from '@/Components/herolottie'
-import Herobg from '@/Components/herobg'
-import Terminal from '@/Components/Terminal'
+const Herolottie = dynamic(() => import('../Components/herolottie'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
+const Herobg = dynamic(() => import('../Components/herobg'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
+const Terminal = dynamic(() => import('../Components/Terminal'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
 import DiscoverBento from '@/Components/DiscoverBento'
 
 // export const metadata = {

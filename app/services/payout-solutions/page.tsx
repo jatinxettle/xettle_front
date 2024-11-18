@@ -1,9 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
-
-import Lottie from '@/Components/payoutlottie'
-import Bg from '@/Components/blockbg'
+import dynamic from 'next/dynamic'
+const Bg = dynamic(() => import('../../../Components/blockbg'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
+const Lottie = dynamic(() => import('../../../Components/payoutlottie'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
 import './game.css'
 import im1 from './im1.webp'
 import im2 from './im2.webp'

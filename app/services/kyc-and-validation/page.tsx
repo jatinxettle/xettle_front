@@ -4,9 +4,15 @@ import Link from 'next/link'
 
 import './game.css'
 import './betting.css'
-
+import dynamic from 'next/dynamic'
+const Gamelottie = dynamic(
+    () => import('../../../Components/verificationlottie'),
+    {
+        ssr: false, // Disable server-side rendering for this component if it's client-only
+        loading: () => <></>, // Optional loading state
+    }
+)
 import skill from './gameskill.webp'
-import Gamelottie from '@/Components/verificationlottie'
 import { Description } from '@radix-ui/react-dialog'
 
 export const metadata = {
