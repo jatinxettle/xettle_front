@@ -40,11 +40,11 @@ const page = () => {
                             by which we will try and ensure resolution to our
                             customer concerns.
                         </p>
-                        <h1 className="text-[2rem] font-bold text-center pt-8">
+                        <h2 className="text-[2rem] font-bold text-left pt-8">
                             <span className="text-[#015dfd]">
                                 Our Principles
                             </span>
-                        </h1>
+                        </h2>
                         <ul className="pt-4 text-[1.1rem] list-disc pl-[1rem]">
                             <li>
                                 Customers remain the Key focus for all
@@ -70,9 +70,9 @@ const page = () => {
                                 delivery.
                             </li>
                         </ul>
-                        <h1 className="text-[2rem] font-bold text-center pt-8">
+                        <h2 className="text-[2rem] font-bold text-left pt-8">
                             <span className="text-[#015dfd]">Our Promise</span>
-                        </h1>
+                        </h2>
                         <ul className="pt-4 text-[1.1rem] list-disc pl-[1rem]">
                             <li>
                                 All grievances will be dealt with, timely and
@@ -95,11 +95,11 @@ const page = () => {
                             to manage customer queries and ease out grievances
                             if any.
                         </p>
-                        <h1 className="text-[2rem] font-bold text-center pt-8">
+                        <h2 className="text-[2rem] font-bold text-left pt-8">
                             <span className="text-[#015dfd]">
                                 We Value your Feedback
                             </span>
-                        </h1>
+                        </h2>
                         <p className="pt-4 text-[1.1rem]">
                             All customers have the right to share their feedback
                             or complaint in case they find our services are not
@@ -158,11 +158,11 @@ const page = () => {
                             from the Customers for completion of their payment
                             obligation.
                         </p>
-                        <h1 className="text-[2rem] font-bold text-center pt-8">
+                        <h2 className="text-[2rem] font-bold text-left pt-8">
                             <span className="text-[#015dfd]">
                                 Grievance Redressal
                             </span>
-                        </h1>
+                        </h2>
                         <p className="pt-4 text-[1.1rem]">
                             Xettle has formulated an escalation matrix to assure
                             that the Customer grievances are routed and

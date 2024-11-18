@@ -16,12 +16,12 @@ export const Footer = () => {
                                 <Image src={Logo} alt="logo" width={180} />
                             </div>
 
-                            <p className="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
+                            <h4 className="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
                                 This is the place where quality meets
                                 innovation. Discover revolutionary solutions
                                 that will transform the way you deliver value to
                                 your customers, quickly and easily.
-                            </p>
+                            </h4>
 
                             <ul className="flex justify-center gap-6 mt-8 md:gap-8 sm:justify-start">
                                 <li>

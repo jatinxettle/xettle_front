@@ -229,27 +229,27 @@ const page = () => {
             >
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
-                        <h1 className="text-[2rem] font-medium">
+                        <h2 className="text-[2rem] font-medium">
                             Why Choose{' '}
                             <span className="text-[#015dfd]"> Xettle?</span>
-                        </h1>
+                        </h2>
                         <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
-                            <ul className="list-disc">
-                                <li>
+                            <ul className="list-disc flex gap-4 flex-col">
+                                <li className="tracking-tight">
                                     <span className="font-semibold">
-                                        Fast Onboarding:
-                                    </span>{' '}
+                                        Fast Onboarding:{' '}
+                                    </span>
                                     Automate manual tasks and onboard customers
                                     as soon as possible.
                                 </li>
-                                <li>
+                                <li className="tracking-tight">
                                     <span className="font-semibold">
-                                        Cutting-Edge Technology:
+                                        Cutting-Edge Technology:{' '}
                                     </span>
                                     Stand out from the competition with our
                                     modern and time-saving solutions.
                                 </li>
-                                <li>
+                                <li className="tracking-tight">
                                     <span className="font-semibold">
                                         User-Centric Design:{' '}
                                     </span>
@@ -271,11 +271,11 @@ const page = () => {
                 {/* <h1 className="text-[2rem] font-medium text-center">
                     Ready to Get Started?
                 </h1> */}
-                <p className="py-3 opacity-75 lg:text-[1.1rem] text-center">
+                <h5 className="py-3 opacity-75 lg:text-[1.1rem] text-center">
                     Choose Xettle Technologies for the most efficient and secure
                     KYC and identity verification services that will boost your
                     business.
-                </p>
+                </h5>
                 <div className="text-center">
                     <Link
                         href="/contact-us"

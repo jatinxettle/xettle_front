@@ -235,11 +235,11 @@ const page = () => {
                     </div>
                     <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(2,_minmax(25vh,1fr))]">
                         <div className="relative gitem1">
-                            <h1 className="text-[2rem] font-medium">
+                            <h2 className="text-[2rem] font-medium">
                                 <span className="text-[#015dfd]">
                                     E-commerce
                                 </span>
-                            </h1>
+                            </h2>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
                                 Ensure timely payments to sellers and vendors.
                                 Build trust and satisfaction among your
@@ -258,10 +258,10 @@ const page = () => {
                             />
                         </div>
                         <div className="relative gitem3">
-                            <h1 className="text-[2rem] font-medium">
+                            <h2 className="text-[2rem] font-medium">
                                 Payroll{' '}
                                 <span className="text-[#015dfd]">Services</span>
-                            </h1>
+                            </h2>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
                                 Provide payment frequencies that would be
                                 favorable to the employees. Accept multiple
@@ -287,16 +287,16 @@ const page = () => {
                     id="games"
                     className="min-h-[30vh] w-[100vw] px-[5%] pt-16 xl:px-[10%] pb-8"
                 >
-                    <h1 className="text-[2rem] font-medium text-center">
+                    <h3 className="text-[2rem] font-medium text-center">
                         Ready to choose Xettle For Your Payment Operations?
-                    </h1>
-                    <p className="py-3 opacity-75 lg:text-[1.1rem] text-center">
+                    </h3>
+                    <h4 className="py-3 opacity-75 lg:text-[1.1rem] text-center">
                         Contact our team of specialists today to learn how
                         Xettle&apos;s payouts can transform your business.
                         Become one of the many businesses thriving with the help
                         of Xettle&apos;s sophisticated payout services and
                         elevate your financial management.
-                    </p>
+                    </h4>
                     <div className="text-center">
                         <Link
                             href="/contact-us"

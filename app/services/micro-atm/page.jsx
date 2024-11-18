@@ -16,7 +16,7 @@ const page = () => {
         <section className="mx-auto w-[100vw] flex flex-col items-center bg-white text-black gap-8 sm:gap-16 min-h-[90vh] pt-[16%] px-[3%] md:pt-[3%] md:px-[8%] pb-16">
             <section className="text-center w-full max-w-[1920px] sm:w-[60%] flex flex-col min-h-[95vh] justify-center pt-0 md:pt-[3%]">
                 <h1 className="text-[2.5rem] font-bold text-center">
-                    <span className="text-[#015dfd]">Micro ATM:</span> <br />
+                    <span className="text-[#015dfd]">Micro ATM</span> <br />
                 </h1>
                 <p>Bring Banking to Your Customers</p>
                 <div className="self-center w-[18rem] h-[18rem] sm:w-[28rem] sm:h-[28rem]">
@@ -38,7 +38,7 @@ const page = () => {
             </section>
             <section
                 id="description"
-                className="min-h-[10vh] w-[100vw] px-[5%] pt-16 xl:px-[10%]"
+                className="min-h-[10vh] w-[100vw] px-[5%] xl:px-[10%]"
             >
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
@@ -67,7 +67,7 @@ const page = () => {
             </section>
             <div className="-mx-4 flex flex-wrap">
                 <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-                    <div className="mb-9 rounded-[20px] bg-white dark:bg-dark-2 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+                    <div className="mb-1 rounded-[20px] bg-white dark:bg-dark-2 p-4 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                         <div className="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +166,7 @@ const page = () => {
                                 />
                             </svg>
                         </div>
-                        <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
+                        <h4 className="text-dark dark:text-white mb-[10px] text-2xl font-semibold">
                             Why Choose Xettle&apos;s Micro ATM?
                         </h4>
                         <p className="text-body-color dark:text-dark-6">
@@ -226,15 +226,15 @@ const page = () => {
                 </div>
             </div>
             <section className="min-h-[30vh] w-[100vw] px-[5%] pt-16 xl:px-[10%]">
-                <h1 className="text-[2rem] font-medium text-center">
+                <h3 className="text-[2rem] font-medium text-center">
                     Join Xettle&apos;s Micro ATM Network
-                </h1>
-                <p className="py-3 opacity-75 lg:text-[1.1rem] text-center">
+                </h3>
+                <h4 className="py-3 opacity-75 lg:text-[1.1rem] text-center">
                     Grow your enterprise and offer basic banking products to
                     your people. Get in touch with us to find out how you can
                     become a Xettle-affiliated merchant and begin offering Micro
                     ATM services.
-                </p>
+                </h4>
                 <div className="text-center">
                     <Link
                         href="/contact-us"

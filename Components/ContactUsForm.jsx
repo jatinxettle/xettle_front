@@ -72,21 +72,35 @@ export default function ContactUsForm() {
                                     <span>US</span>
                                 </div>
                                 <div className="app-contact text-black">
-                                    CONTACT INFO <br />
-                                    Phone:
+                                    <span className="text-[0.8rem]">
+                                        CONTACT INFO
+                                    </span>{' '}
+                                    <br />
+                                    <span className="text-[0.7rem]">
+                                        Phone:
+                                    </span>
                                     <Link href="tel:+4733378901">
                                         {' '}
-                                        +91 9654607040
+                                        <span className="text-[0.7rem]">
+                                            +91 9654607040
+                                        </span>
                                     </Link>{' '}
-                                    <br /> Email :
+                                    <br />
+                                    <span className="text-[0.7rem]">
+                                        Email :
+                                    </span>
                                     <Link href="mailto:letstalk@xettle.net">
                                         {' '}
-                                        letstalk@xettle.net
+                                        <span className="text-[0.7rem]">
+                                            letstalk@xettle.net
+                                        </span>
                                     </Link>
                                     <p>
                                         <br />
-                                        44 IIND FLOOR REGAL BUILDING, CONNAUGHT
-                                        PLACE, NEW DELHI
+                                        <span className="text-[0.7rem]">
+                                            44 IIND FLOOR REGAL BUILDING,
+                                            CONNAUGHT PLACE, NEW DELHI
+                                        </span>
                                     </p>
                                 </div>
                             </div>

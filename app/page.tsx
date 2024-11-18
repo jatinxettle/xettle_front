@@ -226,10 +226,10 @@ const page = () => {
                 </div>
                 <div className="grid grid-cols-1 text-black place-items-center lg:grid-cols-2">
                     <div>
-                        <h2 className="text-[2rem] font-bold">
+                        <h3 className="text-[2rem] font-bold">
                             Why
                             <span className="text-[#015dfd]"> Xettle?</span>
-                        </h2>
+                        </h3>
                         <div className="py-3 opacity-75 w-[90%] lg:text-[1.1rem] font-medium">
                             <ul className="list-disc">
                                 <li>
@@ -246,9 +246,9 @@ const page = () => {
                                 </li>
                             </ul>
                         </div>
-                        <p className="text-[2rem] font-bold mt-4">
+                        <h3 className="text-[2rem] font-bold mt-4">
                             Let&apos;s Work Together
-                        </p>
+                        </h3>
                         <p className="py-3 opacity-75 w-[90%] lg:text-[1.1rem] font-medium">
                             Are you ready to level up your business? We would
                             like to discuss with you the features that will

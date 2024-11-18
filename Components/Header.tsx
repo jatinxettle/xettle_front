@@ -287,13 +287,12 @@ const Header = () => {
                                     </NavigationMenuItem>
                                     <NavigationMenuItem>
                                         <Link
-                                            href="https://medium.com/@xettletechnologies"
+                                            href="https://xettle.wordpress.com/"
                                             legacyBehavior
                                             passHref
                                         >
                                             <NavigationMenuLink
                                                 className={navigationMenuTriggerStyle()}
-                                                target="_blank"
                                             >
                                                 Blogs
                                             </NavigationMenuLink>

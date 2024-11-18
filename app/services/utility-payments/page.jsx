@@ -45,20 +45,22 @@ const page = () => {
                                 Recharge
                             </span>
                         </h1>
-                        <p className="text-center text-[rgba(0,_0,_0,_0.70)] pt-3 lg:text-left lg:text-[1.1rem]">
-                            <span className="font-semibold">
+                        <div className="text-center text-[rgba(0,_0,_0,_0.70)] pt-3 lg:text-left lg:text-[1.1rem] flex gap-[0.125rem] flex-col">
+                            <p className="font-semibold">
                                 Transform your shop into a convenient bill
                                 payment and recharge center with Xettle&apos;s
                                 BBPS and Utility Services.
-                            </span>
+                            </p>
                             <br />
-                            Merchants can help customers to pay utility bills
-                            and mobile/DTH connections, especially in those
-                            areas where there are no other options. Consumers
-                            can get these basic services locally without having
-                            to wait for long, while the merchants get
-                            commissions on each sale.
-                        </p>
+                            <p>
+                                Merchants can help customers to pay utility
+                                bills and mobile/DTH connections, especially in
+                                those areas where there are no other options.
+                                Consumers can get these basic services locally
+                                without having to wait for long, while the
+                                merchants get commissions on each sale.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -295,10 +297,10 @@ const page = () => {
                 {/* <h1 className="text-[2rem] font-medium text-center">
                     Ready to Get Started?
                 </h1> */}
-                <p className="py-3 opacity-75 lg:text-[1.1rem] text-center">
+                <h4 className="py-3 opacity-75 lg:text-[1.1rem] text-center">
                     Get started with Xettle&apos;s BBPS and Recharge Services
                     today and start earning with our easy-to-use platform!
-                </p>
+                </h4>
                 <div className="text-center">
                     <Link
                         href="/contact-us"

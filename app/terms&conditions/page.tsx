@@ -15,7 +15,7 @@ const page = () => {
                             </span>
                         </h1>
                     </div>
-                    <ul className="pt-4 text-[1.1rem] list-disc pl-[1rem]">
+                    <ul className="pt-4 text-[1.1rem] list-disc pl-[1rem] flex flex-col gap-3">
                         <li>
                             This website pages content is for your general
                             information and uses only. It is subject to change
@@ -93,12 +93,12 @@ const page = () => {
                         </li>
                     </ul>
                     <br />
-                    <h1 className="text-[2rem] font-bold">
+                    <h2 className="text-[1.6rem] font-bold mb-2">
                         <span className="text-[#015dfd]">
                             Acceptance of Terms through Use
                         </span>
-                    </h1>
-                    <p>
+                    </h2>
+                    <p className="leading-7">
                         The data we collect from you are stored in our system
                         servers and will be treated with utmost confidentiality.
                         Your personal information will be used only by Xettle

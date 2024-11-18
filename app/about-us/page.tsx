@@ -36,11 +36,11 @@ const page = () => {
                                         transform the way companies in India
                                         manage their finances and make payments.
                                     </p>
-                                    <h1 className="text-[2rem] font-bold pt-8">
+                                    <h2 className="text-[2rem] font-bold pt-8">
                                         <span className="text-[#015dfd]">
                                             Our Mission
                                         </span>
-                                    </h1>
+                                    </h2>
                                     <p className="pt-4 text-[1.1rem]">
                                         The goal at Xettle Technologies is to
                                         help businesses manage their finances
@@ -51,16 +51,16 @@ const page = () => {
                                         modern finance and promote development
                                         and stability in the communities.
                                     </p>
-                                    <h1 className="text-[2rem] font-bold pt-8">
+                                    <h2 className="text-[2rem] font-bold pt-8">
                                         <span className="text-[#015dfd]">
                                             What We Offer
                                         </span>
-                                    </h1>
-                                    <h1 className="text-[1.5rem] font-bold pt-8">
+                                    </h2>
+                                    <h3 className="text-[1.5rem] font-bold pt-8">
                                         <span className="text-black">
                                             1. Comprehensive Payment Solutions
                                         </span>
-                                    </h1>
+                                    </h3>
                                     <p className="pt-4 text-[1.1rem]">
                                         Our payment system is quite strong, and
                                         this makes it easy for companies of all
@@ -70,11 +70,11 @@ const page = () => {
                                         transactions and efficient invoicing
                                         systems that improve business processes.
                                     </p>
-                                    <h1 className="text-[1.5rem] font-bold pt-8">
+                                    <h3 className="text-[1.5rem] font-bold pt-8">
                                         <span className="text-black">
                                             2. Financial Management Tools
                                         </span>
-                                    </h1>
+                                    </h3>
                                     <p className="pt-4 text-[1.1rem]">
                                         We know how it feels to be in a fix when
                                         it comes to handling money. Our
@@ -84,11 +84,11 @@ const page = () => {
                                         finances.
                                     </p>
 
-                                    <h1 className="text-[1.5rem] font-bold pt-8">
+                                    <h3 className="text-[1.5rem] font-bold pt-8">
                                         <span className="text-black">
                                             3. Business Insights and Analytics
                                         </span>
-                                    </h1>
+                                    </h3>
                                     <p className="pt-4 text-[1.1rem]">
                                         Business decisions that are based on
                                         facts are the most effective for the
@@ -99,16 +99,16 @@ const page = () => {
                                         enhance their work and satisfy clients.
                                     </p>
 
-                                    <h1 className="text-[2rem] font-bold pt-8">
+                                    <h2 className="text-[2rem] font-bold pt-8">
                                         <span className="text-[#015dfd]">
                                             Our Impact
                                         </span>
-                                    </h1>
-                                    <h1 className="text-[1.5rem] font-bold pt-8">
+                                    </h2>
+                                    <h3 className="text-[1.5rem] font-bold pt-8">
                                         <span className="text-black">
                                             1. Promoting Financial Inclusion
                                         </span>
-                                    </h1>
+                                    </h3>
                                     <p className="pt-4 text-[1.1rem]">
                                         We are focused on providing financial
                                         services to people regardless of their
@@ -117,11 +117,11 @@ const page = () => {
                                         payment solutions that support economic
                                         activity.
                                     </p>
-                                    <h1 className="text-[1.5rem] font-bold pt-8">
+                                    <h3 className="text-[1.5rem] font-bold pt-8">
                                         <span className="text-black">
                                             2. Encouraging a Cashless Economy
                                         </span>
-                                    </h1>
+                                    </h3>
                                     <p className="pt-4 text-[1.1rem]">
                                         India has been predominantly a
                                         cash-driven economy for a long time.
@@ -130,11 +130,11 @@ const page = () => {
                                         eliminate the use of physical money in
                                         financial transactions.
                                     </p>
-                                    <h1 className="text-[1.5rem] font-bold pt-8">
+                                    <h3 className="text-[1.5rem] font-bold pt-8">
                                         <span className="text-black">
                                             3. Supporting Job Creation
                                         </span>
-                                    </h1>
+                                    </h3>
                                     <p className="pt-4 text-[1.1rem]">
                                         In this way, we help businesses grow
                                         and, consequently, create new jobs. The
@@ -142,21 +142,21 @@ const page = () => {
                                         grow and to be profitable, creating jobs
                                         in the process.
                                     </p>
-                                    <h1 className="text-[2rem] font-bold pt-8">
+                                    <h2 className="text-[2rem] font-bold pt-8">
                                         <span className="text-[#015dfd]">
                                             Looking Ahead
                                         </span>
-                                    </h1>
-                                    <p className="pt-4 text-[1.1rem]">
-                                        <b>Expanding Our Reach</b>
+                                    </h2>
+                                    <h4 className="pt-4 text-[1.1rem]">
+                                        <b>1. Expanding Our Reach</b>
                                         <br />
                                         We are constantly striving to expand our
                                         service to other parts of the country so
                                         that every business can leverage our
                                         solutions.
-                                    </p>
-                                    <p className="pt-4 text-[1.1rem]">
-                                        <b>Strengthening Security</b>
+                                    </h4>
+                                    <h4 className="pt-4 text-[1.1rem]">
+                                        <b>2. Strengthening Security</b>
                                         <br />
                                         Security is a very sensitive aspect that
                                         should be upheld to the highest level in
@@ -164,9 +164,9 @@ const page = () => {
                                         users place their trust in us, we are
                                         committed to improving our security
                                         systems in the area of cyber protection.
-                                    </p>
-                                    <p className="pt-4 text-[1.1rem]">
-                                        <b>Collaborating with Banks</b>
+                                    </h4>
+                                    <h4 className="pt-4 text-[1.1rem]">
+                                        <b>3. Collaborating with Banks</b>
                                         <br />
                                         We aim to create a seamless financial
                                         ecosystem by collaborating with
@@ -174,15 +174,15 @@ const page = () => {
                                         enable us to offer comprehensive
                                         services that cater to the diverse needs
                                         of businesses.
-                                    </p>
-                                    <p className="pt-4 text-[1.1rem]">
+                                    </h4>
+                                    <h5 className="pt-4 text-[1.1rem]">
                                         Xettle Technologies is more than a
                                         fintech startup; we are a catalyst for
                                         economic empowerment. As India&apos;s
                                         SMEs embrace digital transformation, we
                                         stand by their side, supporting their
                                         growth and success. 🚀
-                                    </p>
+                                    </h5>
                                 </div>
                             </div>
                         </section>

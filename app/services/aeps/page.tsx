@@ -23,12 +23,12 @@ const page = () => {
                     <div className="w-[100%] h-[100%] absolute z-[-1] blur-[15px] top-0 left-0"></div>
                     <div className="flex items-center">
                         <div>
-                            <h1 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
+                            <h2 className="text-[2.3rem] text-center lg:text-left lg:text-[3rem]">
                                 <span className="whitespace-nowrap text-[#015EFE]">
                                     AePS{' '}
                                 </span>
                                 Aadhaar Banking
-                            </h1>
+                            </h2>
                             <p className="text-justify text-[rgba(0,_0,_0,_0.70)] pt-3 lg:text-[1.1rem]">
                                 At Xettle Technologies we fully support the
                                 government&apos;s drive towards financial
@@ -272,13 +272,13 @@ const page = () => {
                     {/* <h1 className="text-[2rem] font-medium text-center">
                     Ready to Get Started?
                 </h1> */}
-                    <p className="py-3 opacity-75 lg:text-[1.1rem] text-center">
+                    <h3 className="py-3 opacity-75 lg:text-[1.1rem] text-center">
                         Choose Xettle Technologies now and take your business to
                         new heights with our outstanding AEPS solutions. Get
                         attractive high commissions, professional customer
                         support, and fast cash withdrawals for your financial
                         operations.
-                    </p>
+                    </h3>
                     <div className="text-center">
                         <Link
                             href="/contact-us"
