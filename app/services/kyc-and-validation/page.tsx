@@ -266,7 +266,12 @@ const page = () => {
                         </p>
                     </div>
                     <div className="relative p-[10%] xl:w-[35vw] gitem2">
-                        <Image src={skill} width={1000} alt="img" />
+                        <Image
+                            src={skill}
+                            width={1000}
+                            alt="img"
+                            loading="lazy"
+                        />
                     </div>
                 </div>
             </section>

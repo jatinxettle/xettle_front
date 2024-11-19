@@ -1,5 +1,10 @@
 import React from 'react'
-import ContactUsForm from '@/Components/ContactUsForm'
+import dynamic from 'next/dynamic'
+
+const ContactUsForm = dynamic(() => import('@/Components/ContactUsForm'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
 
 export const metadata = {
     title: 'Contact Us | Xettle',

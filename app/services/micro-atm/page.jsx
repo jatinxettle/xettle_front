@@ -15,12 +15,12 @@ const page = () => {
     return (
         <section className="mx-auto w-[100vw] flex flex-col items-center bg-white text-black gap-8 sm:gap-16 min-h-[90vh] pt-[16%] px-[3%] md:pt-[3%] md:px-[8%] pb-16">
             <section className="text-center w-full max-w-[1920px] sm:w-[60%] flex flex-col min-h-[95vh] justify-center pt-0 md:pt-[3%]">
-                <h1 className="text-[2.5rem] font-bold text-center">
+                <h2 className="text-[2.5rem] font-bold text-center">
                     <span className="text-[#015dfd]">Micro ATM</span> <br />
-                </h1>
+                </h2>
                 <p>Bring Banking to Your Customers</p>
                 <div className="self-center w-[18rem] h-[18rem] sm:w-[28rem] sm:h-[28rem]">
-                    <Image src={hero} width={900} alt="img" />
+                    <Image src={hero} width={900} alt="img" loading="lazy" />
                 </div>
                 <p className="pt-[2rem] text-center font-medium lg:px-[10%]">
                     Micro ATM service provided by Xettle allows merchants to
@@ -42,11 +42,11 @@ const page = () => {
             >
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
-                        <h1 className="text-[2rem] font-medium">
+                        <h2 className="text-[2rem] font-medium">
                             Xettle&apos;s{' '}
                             <span className="text-[#015dfd]">Micro ATM</span>{' '}
                             Services
-                        </h1>
+                        </h2>
                         <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
                             Micro ATM (mATM) is a portable handheld device that
                             allows users to withdraw cash and check their bank
@@ -61,7 +61,12 @@ const page = () => {
                         </p>
                     </div>
                     <div className="relative p-[10%] xl:w-[35vw] gitem2">
-                        <Image src={im2} width={1000} alt="img" />
+                        <Image
+                            src={im2}
+                            width={1000}
+                            alt="img"
+                            loading="lazy"
+                        />
                     </div>
                 </div>
             </section>

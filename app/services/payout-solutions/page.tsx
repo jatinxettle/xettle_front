@@ -261,6 +261,7 @@ const page = () => {
                                 src={im1}
                                 width={1000}
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                         <div className="relative gitem3">
@@ -285,6 +286,7 @@ const page = () => {
                                 src={im2}
                                 width={1000}
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Logo from 'app/logo-wt.webp'
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <main>
             <footer className="bg-[#081121]">
@@ -392,3 +392,5 @@ export const Footer = () => {
         </main>
     )
 }
+
+export default Footer

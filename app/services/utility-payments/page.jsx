@@ -64,7 +64,7 @@ const page = () => {
                     </div>
                 </div>
                 <div>
-                    <Image src={bbpsh} width={900} alt="img" />
+                    <Image src={bbpsh} width={900} alt="img" loading="lazy" />
                 </div>
             </section>
             <section
@@ -73,11 +73,11 @@ const page = () => {
             >
                 <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(2,_minmax(35vh,1fr))]">
                     <div className="relative gitem1">
-                        <h1 className="text-[2rem] font-medium">
+                        <h2 className="text-[2rem] font-medium">
                             Xettle&apos;s{' '}
                             <span className="text-[#015dfd]">BBPS</span> &
                             Recharge Services
-                        </h1>
+                        </h2>
                         <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%]">
                             <span className="font-black text-black">
                                 High Commissions
@@ -105,6 +105,7 @@ const page = () => {
                             src={bbp1}
                             width={1000}
                             alt="img"
+                            loading="lazy"
                         />
                     </div>
                     <div className="relative gitem3">
@@ -128,7 +129,7 @@ const page = () => {
                         </p>
                     </div>
                     <div className="relative p-[10%] xl:w-[35vw] gitem4">
-                        <Image src={dth} width={900} alt="img" />
+                        <Image src={dth} width={900} alt="img" loading="lazy" />
                     </div>
                 </div>
             </section>

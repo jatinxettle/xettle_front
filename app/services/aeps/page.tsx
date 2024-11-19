@@ -45,7 +45,12 @@ const page = () => {
                         </div>
                     </div>
                     <div>
-                        <Image src={himg} width={900} alt="aeps-img" />
+                        <Image
+                            src={himg}
+                            width={900}
+                            alt="aeps-img"
+                            loading="lazy"
+                        />
                     </div>
                 </section>
                 <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-[#777afa]">
@@ -261,6 +266,7 @@ const page = () => {
                                 src={why}
                                 width={1000}
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                     </div>

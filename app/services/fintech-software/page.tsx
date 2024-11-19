@@ -37,10 +37,10 @@ const fintech = () => {
                 id="hero"
                 className="mx-auto min-h-[90vh] w-[100vw] max-w-[1920px] pt-[16%] px-[3%] flex flex-col items-center md:pt-[6%] md:px-[8%] pb-16"
             >
-                <h1 className="text-[2.5rem] font-bold text-center">
+                <h2 className="text-[2.5rem] font-bold text-center">
                     <span className="text-[#015dfd]">Fin-Tech</span> <br />{' '}
                     Softwares
-                </h1>
+                </h2>
                 <div className="text-[#3c3d40]">
                     <h3 className="text-center pt-[2rem] font-bold text-[1.2rem]">
                         Unlock the Future of Finance with Fintech Software
@@ -89,11 +89,11 @@ const fintech = () => {
                 {/* <div className="absolute h-[100%] w-[100%] z-[1] opacity-90">
           <Image src={contour} width={2800} className="transform translate-y-[-10%] translate-x-[-5%] absolute"/>
         </div> */}
-                <h1 className="text-[2rem] font-medium">
+                <h2 className="text-[2rem] font-medium">
                     <span className="text-[#015dfd] relative z-[1]">
                         Comprehensive Fintech Services
                     </span>
-                </h1>
+                </h2>
                 <div className="grid grid-cols-[1fr] gap-[1rem] pt-8 lg:grid-cols-5 xl:p-[5%]">
                     <div className="rounded-2xl w-full h-fit backdrop-blur-sm py-8 px-8 shadow-[0px_4px_35px_0px_rgba(0,_0,_0,_0.15)] md:flex md:items-center md:justify-between lg:h-[100%] fitem1">
                         <div className="md:w-[70%]">
@@ -122,6 +122,7 @@ const fintech = () => {
                             width={150}
                             className="hidden object-contain md:block "
                             alt="img"
+                            loading="lazy"
                         />
                     </div>
                     <div className="rounded-2xl w-full h-fit backdrop-blur-sm py-8 px-8 shadow-[0px_4px_35px_0px_rgba(0,_0,_0,_0.15)] lg:h-[100%] fitem2">
@@ -196,6 +197,7 @@ const fintech = () => {
                             width={150}
                             className="hidden object-contain md:block"
                             alt="img"
+                            loading="lazy"
                         />
                     </div>
                     <div className="rounded-2xl w-full h-fit backdrop-blur-sm py-8 px-8 shadow-[0px_4px_35px_0px_rgba(0,_0,_0,_0.15)] md:flex md:items-center md:justify-between lg:h-[100%] fitem5">
@@ -226,6 +228,7 @@ const fintech = () => {
                             width={130}
                             className="hidden object-contain md:block"
                             alt="img"
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -234,9 +237,9 @@ const fintech = () => {
                 id="packages"
                 className="min-h-[100vh] w-[100vw] px-[5%] pt-16 md:px-[8%]"
             >
-                <h1 className="text-[2rem] font-medium">
+                <h2 className="text-[2rem] font-medium">
                     <span className="text-[#015dfd]">Packages</span>
-                </h1>
+                </h2>
                 <div id="b2b">
                     <div>
                         <h2 className="text-[1.5rem] font-medium pt-4">B2B</h2>
@@ -254,6 +257,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -265,6 +269,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -276,6 +281,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -287,6 +293,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -298,6 +305,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -309,6 +317,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -320,6 +329,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -331,6 +341,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -342,6 +353,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -353,6 +365,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -364,6 +377,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -375,6 +389,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -386,6 +401,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -404,6 +420,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -415,6 +432,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -426,6 +444,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -437,6 +456,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -448,6 +468,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -459,6 +480,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -470,6 +492,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -481,6 +504,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -492,6 +516,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -503,6 +528,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -514,6 +540,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -525,6 +552,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -536,6 +564,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -563,6 +592,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -574,6 +604,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -585,6 +616,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -596,6 +628,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -607,6 +640,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -618,6 +652,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -629,6 +664,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -640,6 +676,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -651,6 +688,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -662,6 +700,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -673,6 +712,7 @@ const fintech = () => {
                                             src={cross}
                                             width={30}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -691,6 +731,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -702,6 +743,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -713,6 +755,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -724,6 +767,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -735,6 +779,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -746,6 +791,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -757,6 +803,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -768,6 +815,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -779,6 +827,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -790,6 +839,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -801,6 +851,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -824,6 +875,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -835,6 +887,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -846,6 +899,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -857,6 +911,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -868,6 +923,7 @@ const fintech = () => {
                                             src={tick}
                                             width={35}
                                             alt="img"
+                                            loading="lazy"
                                         />
                                     </div>
                                     <hr />
@@ -888,7 +944,12 @@ const fintech = () => {
                                         Contact Sales
                                     </Link>
                                 </div>
-                                <Image src={cart} width={200} alt="img" />
+                                <Image
+                                    src={cart}
+                                    width={200}
+                                    alt="img"
+                                    loading="lazy"
+                                />
                             </div>
                         </div>
                     </div>

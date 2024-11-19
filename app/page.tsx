@@ -106,6 +106,7 @@ const page = () => {
                                 quality={100}
                                 className="object-cover"
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                     </div>
@@ -141,6 +142,7 @@ const page = () => {
                                 quality={100}
                                 className="object-cover scale-90"
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                     </div>
@@ -176,6 +178,7 @@ const page = () => {
                                 quality={100}
                                 className="scale-90 object-cover"
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                     </div>

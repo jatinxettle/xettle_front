@@ -205,6 +205,7 @@ const Header = () => {
                                                             src={item.svg}
                                                             alt="img"
                                                             className="mr-2 h-8 w-8"
+                                                            loading="lazy"
                                                         />
                                                         <div>
                                                             <div className="text-sm font-medium leading-none">
@@ -235,6 +236,7 @@ const Header = () => {
                                                                 alt="company"
                                                                 className="h-full rounded-[0.5rem]"
                                                                 objectFit="cover"
+                                                                loading="lazy"
                                                             ></Image>
                                                             {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsgbNqv6W6Xt7-c_9t2wsjPu_UeTbGQe_cioaUdDMqZQ&s" className="object-cover h-full"></img> */}
                                                         </div>
@@ -406,6 +408,7 @@ const Header = () => {
                                                     src={cmpny}
                                                     alt="company"
                                                     className="h-full rounded-[0.5rem] sm:max-w-none object-contain"
+                                                    loading="lazy"
                                                 ></Image>
                                             </div>
                                         </li>

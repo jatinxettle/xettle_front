@@ -2,8 +2,14 @@ import './globals.css'
 import { Roboto } from 'next/font/google'
 import { Toaster } from 'sonner'
 import Header from '@/Components/Header'
-import { Footer } from '@/Components/Footer'
 import { GoogleAnalytics } from '@next/third-parties/google'
+
+import dynamic from 'next/dynamic'
+
+const Footer = dynamic(() => import('@/Components/Footer'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
 
 const roboto = Roboto({
     subsets: ['latin'],

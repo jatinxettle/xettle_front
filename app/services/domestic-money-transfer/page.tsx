@@ -51,6 +51,7 @@ const page = () => {
                             width={800}
                             alt="img"
                             className=" -translate-y-8"
+                            loading="lazy"
                         />
                     </div>
                 </section>
@@ -218,14 +219,14 @@ const page = () => {
                 >
                     <div className="grid grid-cols-1 place-items-center md:grid-cols-2 md:grid-rows-[repeat(1,_minmax(35vh,1fr))]">
                         <div className="relative ggitem3">
-                            <h1 className="text-[2rem] font-medium">
+                            <h2 className="text-[2rem] font-medium">
                                 <span className="text-[#015dfd]">Quick</span>{' '}
                                 and{' '}
                                 <span className="text-[#015dfd]">
                                     Reliable{' '}
                                 </span>
                                 Money Transfers
-                            </h1>
+                            </h2>
                             <p className="py-3 opacity-75 lg:text-[1.1rem] xl:w-[90%] text-justify">
                                 Get fast and secure transactions with
                                 Xettle&apos;s Domestic Money Transfer services.
@@ -243,6 +244,7 @@ const page = () => {
                                 src={quick}
                                 width={1000}
                                 alt="img"
+                                loading="lazy"
                             />
                         </div>
                     </div>

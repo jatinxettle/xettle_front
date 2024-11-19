@@ -1,6 +1,12 @@
 import React from 'react'
 import './about.css'
-import Lottie from '@/Components/aboutus'
+
+import dynamic from 'next/dynamic'
+
+const Lottie = dynamic(() => import('@/Components/aboutus'), {
+    ssr: false, // Disable server-side rendering for this component if it's client-only
+    loading: () => <></>, // Optional loading state
+})
 
 export const metadata = {
     title: 'About Us | Xettle',
