@@ -16,7 +16,7 @@ import skill from './gameskill.webp'
 import { Description } from '@radix-ui/react-dialog'
 
 export const metadata = {
-    title: 'KYC And Verification | Xettle',
+    title: 'KYC And Validation | Xettle',
     description:
         'Secure and quick identity verification is guaranteed by Xettle KYC solution. Obtain compliance and establish credibility for modern business with quick, trustworthy verification.',
 }
@@ -64,7 +64,7 @@ const page = () => {
                         <div className="w-full px-4">
                             <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
                                 <h2 className="text-dark text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]">
-                                    With Xettle&apos;s AePS Services
+                                    Key Services
                                 </h2>
                                 {/* <p className="text-body-color text-base dark:text-dark-6">
                                         Making Payments Easier
@@ -118,12 +118,15 @@ const page = () => {
                                     </svg>
                                 </div>
                                 <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
-                                    Dedicated Customer Support
+                                    Secure KYC Solutions
                                 </h4>
                                 <p className="text-body-color dark:text-dark-6">
-                                    Benefit from 24/7 customer support, ensuring
-                                    all your queries and issues are resolved
-                                    promptly and efficiently.
+                                    Conduct KYC quickly and effectively using
+                                    our solutions. We streamline the procedure
+                                    of obtaining the documents required to
+                                    confirm the clients&apos; address, financial
+                                    standing, and identity, as well as
+                                    compliance.
                                 </p>
                             </div>
                         </div>
@@ -173,13 +176,14 @@ const page = () => {
                                     </svg>
                                 </div>
                                 <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
-                                    High Commission
+                                    Advanced Identity Verification
                                 </h4>
                                 <p className="text-body-color dark:text-dark-6">
-                                    Earn competitive commissions on every
-                                    transaction, maximizing your profits and
-                                    providing a lucrative opportunity for your
-                                    business growth.
+                                    Use our biometric authentication, document
+                                    verification and data analysis services to
+                                    prevent fraud and build trust. Our solutions
+                                    are created with the user in mind and can be
+                                    scaled as your company evolves.
                                 </p>
                             </div>
                         </div>
@@ -217,14 +221,25 @@ const page = () => {
                                     </svg>
                                 </div>
                                 <h4 className="text-dark dark:text-white mb-[14px] text-2xl font-semibold">
-                                    Easy Cash Withdrawal
+                                    Compliance and Security
                                 </h4>
                                 <p className="text-body-color dark:text-dark-6">
-                                    Enjoy seamless and hassle-free cash
-                                    withdrawals, making it convenient for you to
-                                    access funds whenever needed.
+                                    Xettle acknowledges the importance of
+                                    users&apos; data and the security of the
+                                    information that is inputted. We use the
+                                    highest level of encryption and follow the
+                                    highest compliance standards to protect your
+                                    business information.
                                 </p>
                             </div>
+                        </div>
+                        <div className="text-center mx-auto">
+                            <Link
+                                href="/contact-us"
+                                className="relative flex w-[8.5rem] h-[2.9rem] items-center justify-center text-white mt-3 mx-auto rounded-lg bg-[linear-gradient(71deg,_#3445e5_21.66%,_rgba(126,_254,_52,_0.92)_178.45%)]"
+                            >
+                                Contact Us
+                            </Link>
                         </div>
                     </div>
                 </div>
