@@ -90,7 +90,10 @@ export default function RootLayout({
                     content={metadata.twitter.creator}
                 />
 
-                <link rel="canonical" href="https://xettle.net/" />
+                <link
+                    rel="canonical"
+                    href="https://www.xettle.net/services/kyc-and-validation"
+                />
                 <link rel="icon" href="./favicon.ico" sizes="any" />
 
                 <script
